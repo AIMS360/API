@@ -1,0 +1,375 @@
+Web API Architecture Design
+ API-92 - Define Introduction and general information section which will be self-explanatory and focus on General introduction part of the AIMS360 Web API project Done    API-98 - Define Infrastructure deployment diagram with call flow Done    API-97 - Define Web API Request & Response flow diagram and structure Done    API-103 - Design technical document Introduction and general information Done 
+ API-92 - Define Introduction and general information section which will be self-explanatory and focus on General introduction part of the AIMS360 Web API project Done  API-96 - Define AIMS 360 detailed level Application components architecture flow Done    API-101 - Define Database Diagram and flow for AIMS360 Web API Done    API-139 - Web API Error code list and documentation Done 
+Focal Technology – AIMS 360 
+Application Design Document 
+
+
+November 28, 2016
+  
+Revision Sheet
+Release No.	Date	Revision Description	Updated By	Comments	Reviewed By
+Rev. V0.1	07/11/2016	Initial Draft Version	Anuj Sharma		
+ 	 	 	 		
+ 	 	 	 		
+ 
+	Application Design Document Authorization Memorandum
+I have carefully assessed this Application Design Document. This document has been completed in accordance with the requirements of the AIMS 360 Project. 
+MANAGEMENT CERTIFICATION - Please check the appropriate statement. 
+______ This document is accepted. 
+
+______ This document is accepted pending the changes noted. 
+
+______ This document is not accepted. 
+
+We fully accept the changes as needed improvements and authorize initiation of work to proceed. Based on our authority and judgment, the continued operation of this system is authorized. 
+_______________________________________________________________
+NAME AND TITLE (Product Owner) DATE 
+_______________________________________________________________
+NAME AND TITLE (Solution Designer) DATE 
+_______________________________________________________________
+NAME AND TITLE (Solution Architect) DATE 
+_______________________________________________________________
+NAME AND TITLE (Quality Assurance) DATE 
+_______________________________________________________________
+NAME AND TITLE (Project Management) DATE 
+
+TABLE OF CONTENTS
+•	Introduction and General Information 
+o	Overview
+o	Purpose
+o	Scope
+o	Audience
+o	Assumptions
+o	Guidelines
+o	Implementation Prerequisites
+o	Languages, Frameworks and Tool
+o	References
+o	Acronyms and Abbreviations
+•	AIMS 360 Web API – High Level E2E Diagram 
+o	Microsoft Azure Platform
+o	Microsoft Azure Traffic Manager
+•	AIMS360 Web API – Components 
+o	Authentication Handler
+o	User Management(Admin) Handler
+o	Provisioning Handler
+•	AIMS360 Web API – Application Components Architecture Flow 
+o	Authentication Handler
+o	
+o	User Management Handler component is used for manage API user. 
+o	Provisioning Handler
+o	
+o	Validation Handler
+o	Command Handler
+o	Message Handler
+o	Error Handler
+o	Data Access Handler
+o	Database Diagram For Web API
+o	Support Component
+•	AIMS 360 – Web API Application Flow
+•	AIMS360 Web API – Exception Occurred Touchpoints 
+o	Authentication Service
+o	Customer Service
+o	Order Service
+o	Invoice Service
+•	AIMS360 Web API – Error Code List
+•	AIMS360 Web API – Quality 
+o	Code Quality
+o	Performance
+o	Monitoring
+o	Documentation
+•	AIMS360 Web API – E2E Deployment 
+•	AIMS360 Web API – Request & Response Flow 
+
+
+•	Introduction and General Information
+o	Overview
+This document describes the Business Requirement, functional flow, architecture design and implementation details of the "AIMS 360 Web API Project" for AIMS 360 Team. It describes the decomposition of the software into components. Then for each component it describes the relation to external interfaces and the dependencies on other components.
+•	
+o	Purpose
+The purpose of this document is to outline the proposed solution approach of Focal Technology USA for "AIMS 360 Web API Project". This document also covers the Framework details, framework components details, error touch point details, Microsoft Azure functionality and integration channels details, those are required for the development, implementation as well as on notifications processing rules for all intended users. Its main purpose is to:
+•	
+o	
+	Provide the link between functional specification and detailed Technical Design Documents
+ 
+	Details the functionality which will be provided by each component or group of components and show how the various components interact in the design
+
+This document is not intended to address installation and configuration details of the actual implementation. Installation and configuration details are provided in technology guides produced during the course of the project. As is true with any high-level design, this document will be updated and refined based on changing requirement.
+•	
+o	Scope
+A Microsoft .net based implementation can choose to support a subset of the overall capabilities defined in the Business Requirement Document. RESTful Web Service based "AIMS 360 Web API Project" specifies different sets of services for business functionality. This application is designed to extend the business functionality of AIMS360 (USA). The entire implementation is envisaged in several phases.
+•	
+o	Audience
+The intended audience of this document are "AIMS360 Stakeholders, Product Owner, Project development teams, technical architects, database designers and testers".
+•	
+o	Assumptions
+•	
+o	
+	This document in its current state describes the architecture design for the scope identified
+	Apart from the functional scope, the architecture design of the underlying "AIMS 360 Web API Project" will take input request from end consumer of the service for processing request.
+	SLA of the application is depending upon the Microsoft Azure Uptime.
+	Security testing are not coming under current scope.
+•	
+o	Guidelines
+•	
+o	
+	"AIMS 360 Web API Project" implementation gracefully integrates into the overall AIMS 360 Applications design.
+	Reuse existing functionality wherever possible
+	It is recommended to use .net certified libraries for standard functions any third-party or open source tools and libraries must be reviewed by the Client before finalizing the design.
+•	
+o	Implementation Prerequisites
+•	
+1.	
+	Microsoft .Net Framework 4.5
+	Visual Studio 2015
+	SQL Server 2016
+	Microsoft Azure
+•	
+o	Languages, Frameworks and Tool
+The "AIMS 360 WEB API Project" will be built using Microsoft.Net Framework 4.5, Microsoft Visual Studio 2015, Microsoft WEB API Technology. It will be dependent on the following Component libraries.
+•	
+o	
+	
+	AIMS 360 Business Components
+	AIMS 360 Database
+	Log4Net for logging
+•	
+o	References
+•	
+o	
+	https://channel9.msdn.com/Shows/Data-Exposed/SQL-Database-Active-Geo-Replication
+	https://channel9.msdn.com/Shows/Cloud+Cover/Episode-132-Windows-Azure-Traffic-Manager
+	https://channel9.msdn.com/Events/Connect/2016/Microsoft-Azure-Panel-with-QA
+•	
+o	Acronyms and Abbreviations
+•	
+o	
+	ADD – Architecture Design Document
+	DDD – Detailed design document
+	GUI – Graphical User Interface
+	HTML – Hypertext Markup Language
+	JSON – JavaScript Object Notation
+	CSV – Comma Separated Values
+	HTTP – Hypertext Transfer Protocol
+	IIS – Internet Information System
+	MS – Microsoft
+	E2E – End To End
+•	AIMS 360 Web API – High Level E2E Diagram
+The diagram represent the E2E picture of "AIMS 360 Web API".
+
+ 
+•	
+o	Microsoft Azure Platform
+Microsoft Azure platform provides Infrastructure as a service and platform as a service. "AIMS360 Web API Project" is using major features of Microsoft Azure Platform. When a user send a request, it make a call to the public IP or address from their it comes to Microsoft Azure Platform.
+•	
+o	Microsoft Azure Traffic Manager
+Traffic Manager is a very good feature in MS Azure. It uses the Domain Name System (DNS) to direct client requests to the most appropriate endpoint based on a traffic-routing method and the health of the endpoints. It provides a range of traffic-routing methods to suit application needs, endpoint health monitoring, and automatic failover. In AIMS360 Web API Project once request landed on MS Azure platform immediately it talks to Traffic Manager for routing. Traffic manager will check the nearest application server location center and server the user request.
+•	AIMS360 Web API – Components
+The below diagram represent the "AIMS360 Web API Application Components". All these components will work together and build a robust framework. The application contains seven different components, and every component contains its own sub components and class file which is managed by the application. The details of each component are mention in next section.
+
+ 
+•	
+o	Authentication Handler
+
+Authentication handler is the first members of this framework which is responsible for the entire user interaction. Authentication handler will take the request and pass the same to validation handler to validate it, if the provided input is well supplied then Authentication handler will talk to another component in the solution to authenticate user credentials. Currently we have only use basic authentication to authenticate user credentials. But in the system architecture & design there is a provision to add another authentication type. To simplify the system, we have proposed micro service architecture and design for the same we have created a separate and totally decoupled service for Authentication. An in-detailed information and functionality of validation handler is listed in Section 3. "AIMS360 Web API – Application Components Architecture Flow".
+•	
+o	User Management(Admin) Handler
+User Management Handler component is used for manage API user. This component  facilitates to create a new API User, Update existing API User , Delete existing API User, Get API User information, Get All API User.
+•	
+o	Provisioning Handler
+ Provisioning handler component facilitate Provision, ReProvision  , Unprovision, Disable For single or Multiple Tenants of a  company. 
+
+o	Validation Handler 
+Validation handler is a very vital component of this system. It interacts with many sub components and validate user input. At first stage, it takes user authentication request from authentication handler and validate it against pre-defined business rules. An in-detailed information and functionality of validation handler is listed in Section 3. "AIMS360 Web API – Application Components Architecture Flow".
+•	Command Handler
+Command handler is the core of the application. It come into the picture after Authentication handler. This component will receive every input request and based on the business functionality it will decide the next path. The beauty of this component is, it interacts with Message Builder and sub components and help them to generate the message. 
+The details of these components are defined in Section 3. "AIMS360 Web API – Application Components Architecture Flow".
+•	Message Handler
+Message handler is the heart of this application, because it generated the message which end user or the Web API user required. In his life cycle it receive data from command handler and then it interacts with data objects to build the message. It is having two sub components "Routing Dispatcher" and "Message Builder". 
+The details of these components are defined in Section 3. "AIMS360 Web API – Application Components Architecture Flow".
+•	Error Handler
+Error Handler is play a very dynamic role in this application It's an alarming system which inform whenever any problem occurred. This component send communication to support team as well as it send the same message to "Other support components" so that the same will be catered. It is having two sub components "Code Mapper" and "Type Factory"
+The details of these components are defined in Section 3. "AIMS360 Web API– Application Components Architecture Flow"
+•	Data Access Component
+This is the mail building block of the application, because it is having the logic to communicate with the database. This class library is used for handling data base connectivity. Used entity framework for handling database activities. The details of these components are defined in Section 3. "AIMS360 Web API – Application Components Architecture Flow"
+•	Support Component
+Support components is the bridge between components in the application . The details of these components are defined in Section 3. "AIMS360 Web API – Application Components Architecture Flow" 
+•	AIMS360 Web API – Application Components Architecture Flow
+The section describes a high-level application architecture flow of "AIMS360 Web API". This section is inherited from the above section; it tells you about the details of each & every component of the application.
+
+ 
+•	
+o	Authentication Handler
+Authentication handler is the first member function of this framework. In general, we have four authentication handler types "Integrated", "Forms", "TlsClient" and "Basic".
+In current project, we are only implementing "Basic" type of authentication handler to authenticate user. 
+
+ 
+Application will receive the request from Request handler and based on that the actual implementation will be taken place in the Request factory itself. Request factory will decide the implementation of authentication handler.
+
+ 
+Below are the different types of Authentication Handlers, its function and functionality.
+
+ 
+
+•	User Management Handler component is used for manage API user. 
+o	This component  facilitates to create a new API User, Update existing API User , Delete existing API User, Get API User information, Get All API User.
+ 
+o	Provisioning Handler
+
+ Provisioning handler component facilitate Provision, ReProvision , Unprovision, Disable For single or Multiple Tenants of a  company and this service also facilitates provision, un provision and disable Exception Management  API for single or multiple applications.
+ 
+
+o	Validation Handler
+The Validation Handler is a very productive component of this application. Below is a self-explanatory pic of validation handler, which is showing two sub components of it.
+
+ 
+It provides the capability to test whether the value provided for the selected property, or the values specified for the parameters of the selected method, are valid against specific rules. Such proactive behavior of the component will save server trips and stop evil input.
+ 
+Syntax Check Handler, will check the input request like Customer Number, Address, Style etc. are not null and empty. Rules handler will work based on rule-set name. In Web API project, we will use Attribute based targeting with validation handler and validating parameters with attribute based targeting
+•	
+o	Command Handler
+The command handler specifies the behavior of this application.  Command handler is  used to encapsulate all information needed to perform an action or trigger an event later. In Web API project command handler, will receive the command like “Customer Creation”, “Order Management”, “Invoice Creation” etc. In current project, we have two sub components of it. Whereas first is “Business Command Handler” and another is “Command Factory”. Below picture depicts the sub component integration with command handler.
+
+ 
+Business Commands will take care of the business operations whereas the actual implementation of the business operation comes under command factory. Below is the pictorial representation of the E2E cycle of command handler. In this handler, we have command, receiver, invoker and client. The more detailed information of this will cover in Technical Design Document.
+
+ 
+1.	
+o	Message Handler
+
+The message handler is the heart of this system it receives the request validate it using validation handler and build the response against it. Message handler is having two sub components routing dispatcher and message builder. Routing dispatcher will dispatch the request based on the route. Below picture depicts the sub component integration with message handler
+ 
+Below is the complete flow of Message handler, whenever any request comes like “Get Zip Codes”, “Get Invoices”, “Get Purchase Order”. Message handler will receive the request and then it validate the same using validation handler, once it done it make a call to Routing Dispatcher to check the route of the request, and then it make a call to message builder to interact with data access layer or components to build the message.
+
+
+ 
+
+
+1.	
+o	Error Handler
+The error handler informer is the lifeline of this system, whenever any problem comes error handler will raise the fire alarm. Error Handler is a subset of Error Handling framework, where whenever any problem or exception comes it will log and raise the same. Error Handler is having two sub components “Code Mapper” and “Type Factory”. Below picture depicts the sub component integration with Error Handler
+ 
+Below is the complete flow of Error handler, whenever any component came across with any problem it immediate makes a call to Error handler to handle that issue
+ 
+
+Error handler sub component “Type Factory” will check the type of the exception and based on that it makes a call to “Code Mapper” to provide the message (Type of exceptions are Database Exception, Business Rules Exception, Application Exception etc.).
+In code mapper, we have a complete list of error codes and their respective error messages when it receives the request based on Error Type, it will check the mapping details (from repository) and will provides the same to respective component.
+•	Data Access Handler
+The Data Access Handler is the bridge between the Web API and the Database. Every operation which required information from the database “Data Access Handler” will come in to the picture. It is having two components “Base Library”  Used entity framework for handling database activities and the “DAL Factory”. Below picture depicts the sub component integration with Error Handler.
+ 
+Below is the complete flow of Data Access Handler. Here, message handler will interact with Data Access Components, first request goes to “Base Library” which check the function definition details and then it will make a call to “DAL Factory” for database connection, command and adapters. 
+ 
+
+o	Database Diagram For Web API
+                                                                                                                            
+
+ 
+ 
+•	Support Component
+In AIMS360 Web API project support components plays a very vital role. We have five dynamic components in Support Component Framework. Below picture depicts the component details
+ 
+All above components will work together and provide support to all framework components. So, when a request comes Logging handler will log the request and the response, in case something wrong happen with the request then Notification system will send notification to respective team. Team information will be mentioned in configuration handler so the handler will provide the same info to notification system.
+ 
+
+
+•	AIMS 360 – Web API Application Flow
+This section provides the “Web API Flow Details”, which help developers to understand the service integration and flow details
+ 
+
+Here is the explanation of the above diagram. The very first request which comes to AIMS360 Web API is Authentication request. Authentication request contains three parameters “User Name”, “Password” & “Tenant ID”. Once request reached to MS Azure API gateway, Authentication Service Handler will receive the request and send the same to validation handler to validate it, once the request is validating it sends the same to other AIMS 360 Web API Business Services to perform further.
+In return service provides authentication token back to the user with authorization details. From now onwards in each request instead of credentials user will pass the service token only. System understand the token details for each user and each request. It validates the token expiry and based on that it allows user to access the business functionality
+•	AIMS360 Web API – Exception Occurred Touchpoints
+This section provides the “Application Exception Occurred Touch Points”, which help developers to design the application in such a manner, so that every issue will be catered proactively.
+ 
+
+•	
+o	Authentication Service
+Authentication service will be integrated with error handling framework. All methods of authentication will have error handling mechanism ( User Authentication)
+•	
+o	Customer Service
+Customer service will be integrated with error handling framework. All methods of customer service will have error handling mechanism ( Create Customer, Update Customer) 
+•	
+o	Order Service
+Order service will be integrated with error handling framework. All methods of Order service will have error handling mechanism ( Create Order, Update Order, Update order quantity) 
+•	
+o	Invoice Service
+Invoice service will be integrated with error handling framework. All methods of Invoice service will have error handling mechanism ( Create Invoice, Update Invoice) 
+In the same way we can say all services having error handling in each and every method. 
+
+•	AIMS360 Web API – Error Code List
+This section provides the “Error Code List" for AIMS 360 Web API Project. This error code list contains the Condition, Code and the description. The list will be modified or updated as per the development experience.
+
+ConditionNotMet	Not Modified (304)	The condition specified in the conditional header(s) was not met for a read operation.
+MissingRequiredHeader	Bad Request (400)	A required HTTP header was not specified.
+MissingRequiredXmlNode	Bad Request (400)	A required XML node was not specified in the request body.
+UnsupportedHeader	Bad Request (400)	One of the HTTP headers specified in the request is not supported.
+UnsupportedXmlNode	Bad Request (400)	One of the XML nodes specified in the request body is not supported.
+InvalidHeaderValue	Bad Request (400)	The value provided for one of the HTTP headers was not in the correct format.
+InvalidXmlNodeValue	Bad Request (400)	The value provided for one of the XML nodes in the request body was not in the correct format.
+MissingRequiredQueryParameter	Bad Request (400)	A required query parameter was not specified for this request.
+UnsupportedQueryParameter	Bad Request (400)	One of the query parameters specified in the request URI is not supported.
+InvalidQueryParameterValue	Bad Request (400)	An invalid value was specified for one of the query parameters in the request URI.
+OutOfRangeQueryParameterValue	Bad Request (400)	A query parameter specified in the request URI is outside the permissible range.
+RequestUrlFailedToParse	Bad Request (400)	The url in the request could not be parsed.
+InvalidUri	Bad Request (400)	The requested URI does not represent any resource on the server.
+InvalidHttpVerb	Bad Request (400)	The HTTP verb specified was not recognized by the server.
+EmptyMetadataKey	Bad Request (400)	The key for one of the metadata key-value pairs is empty.
+InvalidXmlDocument	Bad Request (400)	The specified XML is not syntactically valid.
+Md5Mismatch	Bad Request (400)	The MD5 value specified in the request did not match the MD5 value calculated by the server.
+InvalidMd5	Bad Request (400)	The MD5 value specified in the request is invalid. The MD5 value must be 128 bits and Base64-encoded.
+OutOfRangeInput	Bad Request (400)	One of the request inputs is out of range.
+InvalidAuthenticationInfo	Bad Request (400)	The authentication information was not provided in the correct format. Verify the value of Authorization header.
+InvalidInput	Bad Request (400)	One of the request inputs is not valid.
+InvalidMetadata	Bad Request (400)	The specified metadata is invalid. It includes characters that are not permitted.
+InvalidResourceName	Bad Request (400)	The specifed resource name contains invalid characters.
+MetadataTooLarge	Bad Request (400)	The size of the specified metadata exceeds the maximum size permitted.
+ConditionHeadersNotSupported	BadRequest (400)	Condition headers are not supported.
+MultipleConditionHeadersNotSupported	Bad Request (400)	Multiple condition headers are not supported.
+AuthenticationFailed	Forbidden (403)	Server failed to authenticate the request. Make sure the value of the Authorization header is formed correctly including the signature.
+InsufficientAccountPermissions	Forbidden (403)	Read operations are currently disabled.
+InsufficientAccountPermissions	Forbidden (403)	Write operations are not allowed.
+ResourceNotFound	Not Found (404)	The specified resource does not exist.
+AccountIsDisabled	Forbidden (403)	The specified account is disabled.
+InsufficientAccountPermissions	Forbidden (403)	The account being accessed does not have sufficient permissions to execute this operation.
+UnsupportedHttpVerb	Method Not Allowed (405)	The resource doesn't support the specified HTTP verb.
+AccountAlreadyExists	Conflict (409)	The specified account already exists.
+AccountBeingCreated	Conflict (409)	The specified account is in the process of being created.
+ResourceAlreadyExists	Conflict (409)	The specified resource already exists.
+ResourceTypeMismatch	Conflict (409)	The specified resource type does not match the type of the existing resource.
+MissingContentLengthHeader	Length Required (411)	The Content-Length header was not specified.
+ConditionNotMet	Precondition Failed (412)	The condition specified in the conditional header(s) was not met for a write operation.
+RequestBodyTooLarge	Request Entity Too Large (413)	The size of the request body exceeds the maximum size permitted.
+InvalidRange	Requested Range Not Satisfiable (416)	The range specified is invalid for the current size of the resource.
+InternalError	Internal Server Error (500)	The server encountered an internal error. Please retry the request.
+OperationTimedOut	Internal Server Error (500)	The operation could not be completed within the permitted time.
+ServerBusy	Service Unavailable (503)	The server is currently unable to receive requests. Please retry your request.
+
+•	AIMS360 Web API – Quality
+This section describes the Quality of AIMS 360 Web API. The quality of the application comprises E2E delivery in terms of Documentation, code, application performance, monitoring parameters details and reviews.
+•	
+o	Code Quality
+To maintain the quality of code, the development team will follow the “Microsoft C# Coding Standards & Guidelines”. To maintain the code hygiene, it will be reviewed by the 
+“Peers” and the final delivery will be approved by Technical Architect.
+•	
+o	Performance
+AIMS 360 Web API performance will be based on the Application Code Quality. It also depends on AIMS360 business objects, because all calls from Web API to AIMS360 business objects to Database are Synchronized. It also depends upon the server where the application is deployed 
+•	
+o	Monitoring
+Application monitoring will be taken care by the Microsoft Azure monitoring team. Team needs to check the basic monitoring parameters for this application like “CPU”, “RAM”
+•	
+o	Documentation
+This section describes the documentation part of Web API, in terms of “Architecture Design Document”, “Technical Design Document”, “Test Cases & Test Proofs”, “Installation Guide” & “Troubleshooting Guide”. Here all above mention documents are part of AIMS 360 Web API Delivery
+
+
+•	AIMS360 Web API – E2E Deployment 
+This section describes the E2E deployment diagram details of AIMS 360 Web API Project. The quality of the application comprises E2E delivery in terms of Documentation, code, application performance, monitoring parameters details and reviews.
+
+ 
+
+
+•	AIMS360 Web API – Request & Response Flow 
+This below image portrait the flow details of AIMS360 Web API components major request and response flow.
+
+ 
+
+
