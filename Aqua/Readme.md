@@ -16,6 +16,8 @@ Aqua API is designed to process large number of records. Aqua API consumer data
 request can be returns in JSON, Csv, or Excel. To achieve this consumer of Aqua
 must complete the following steps:
 
+![](media/f104067fe9e7d2e5db9593a201c0528c.png)
+
 1.  Obtain a valid access token by posting to
     <https://api.aims360.rest/authentication>
 
