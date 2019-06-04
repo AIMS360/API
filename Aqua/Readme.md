@@ -1,4 +1,4 @@
-AIMS360 AQUA API
+AIMS360 Aqua API
 ----------------
 
 ### Introduction
