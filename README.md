@@ -1,3 +1,5 @@
+AIMS360 API
+
 Overview
 
 The AIMS360 API allows you to access features on AIMS360 ERP application using
@@ -19,7 +21,9 @@ To generate bearer token, the Client ID and Secret key are necessary. Copy
 client ID and secret from AIMS360 API tab under System Settings on AIMS360
 application.
 
-![C:\\Users\\KALYAN\~1.PAL\\AppData\\Local\\Temp\\SNAGHTML1b033fb6.PNG](media/da4f6e833399894c425c1a025ddc4441.png)
+![](media/ff708d7d5f37ee685ae47ff23867b9ca.png)
+
+C:\\Users\\KALYAN\~1.PAL\\AppData\\Local\\Temp\\SNAGHTML1b033fb6.PNG
 
 Step 2:
 
@@ -39,4 +43,4 @@ Step 4:
 On successful validation of the provided details, bearer token will be generated
 and configured.
 
-![](media/25692428f1f5b4ca45d417181e5da218.png)
+![](media/c7c3e58b570c397cadcebdff59d5ec49.png)
