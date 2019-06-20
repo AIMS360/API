@@ -1,13 +1,14 @@
-**AIMS360 API**
+AIMS360 API
+-----------
 
-**Overview**
+### Overview
 
 The AIMS360 API allows you to access features on AIMS360 ERP application using
 Application Programing Interface. The API is a RESTful service which accepts
 input in JSON or query string format and return response as JSON or any other
 preferred supported format (excel/CSV/PDF).
 
-**Authentication**
+### Authentication
 
 The API endpoints require authorization to retrieve or set data. AIMS360
 recommends you use OAuth v2.0 to authenticate to the REST API. Authenticating
