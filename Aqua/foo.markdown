@@ -27,92 +27,9 @@ height="0.7889337270341207in"}
     endpoint.
 
 Endpoint input properties
-
-+-----------------------------------+-----------------------------------+
-| exportType                        | **\"**exportType**\"**:\"View\"   |
-|                                   |                                   |
-|                                   | Defines what needs to be          |
-|                                   | exported. Valid values for this   |
-|                                   | property are\                     |
-|                                   | View: When AIMS360 View data      |
-|                                   | needs to be exported\             |
-|                                   | Rreport: When AIMS360 Report data |
-|                                   | needs to be exported              |
-+===================================+===================================+
-| exportDataSettings                | The details required to export    |
-|                                   | required data. For exporting      |
-|                                   | AIMS360 View, the details of the  |
-|                                   | View need to be specified and for |
-|                                   | exporting AIMS360 Report data,    |
-|                                   | the report criteria need to be    |
-|                                   | specified                         |
-+-----------------------------------+-----------------------------------+
-| Source                            | \"Source\": \"Orders\"            |
-|                                   |                                   |
-|                                   | The source of the AIMS360 View.   |
-|                                   | Click here for the list of        |
-|                                   | Sources                           |
-+-----------------------------------+-----------------------------------+
-| viewName                          |  \"viewName\": \"Open Orders\"    |
-|                                   |                                   |
-|                                   | The name of the AIMS360 View.     |
-|                                   | This can be System View or the    |
-|                                   | Custom View available in the View |
-|                                   | dropdown on the AIMS360           |
-|                                   | application for different modules |
-+-----------------------------------+-----------------------------------+
-| exportCriteriaVersion             |  \"exportCriteriaVersion\":       |
-|                                   | \"v1.0\"                          |
-|                                   |                                   |
-|                                   | The version of the generated      |
-|                                   | report/view                       |
-+-----------------------------------+-----------------------------------+
-| outputFormat                      | \"outputFormat\": \"csv\"\        |
-|                                   | The preferred format of the       |
-|                                   | output. The supported formats are |
-|                                   | Excel, PDF, Formatted Excel and   |
-|                                   | JSON                              |
-+-----------------------------------+-----------------------------------+
-| publishLinkAccessScope            | \"publishLinkAccessScope\":       |
-|                                   | \"Private\"                       |
-|                                   |                                   |
-|                                   | The scope to access the           |
-|                                   | publishlink. Valid scopes are     |
-|                                   | Public, Private and               |
-|                                   | PeopleInOrganization              |
-+-----------------------------------+-----------------------------------+
-
-3.  The endpoint returns the JobID, job status and Publishlink in the
-    response.
-
-Response properties
-
-+-----------------------------------+-----------------------------------+
-| jobId                             | \"jobId\":                        |
-|                                   | \"XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXX |
-|                                   | XXXXX\"                           |
-|                                   |                                   |
-|                                   | The ID of the job created to      |
-|                                   | serve the request                 |
-+===================================+===================================+
-| jobStatus                         | \"jobStatus\": \"Queued\"\        |
-|                                   | The status of the job             |
-+-----------------------------------+-----------------------------------+
-| publishLink                       | \"publishLink\":\"https://api.aim |
-|                                   | s360.rest/reports/v1.0/publishlin |
-|                                   | k/XXXXXXXXXXXXXXXXXXXXXXXX/XXXXXX |
-|                                   | XXXXXXXXXXXXXXXXXX\"              |
-|                                   |                                   |
-|                                   | The link to access the output of  |
-|                                   | the job                           |
-+-----------------------------------+-----------------------------------+
-| publishLinkAccessScope            | \"publishLinkAccessScope\":       |
-|                                   | \"Private\"\                      |
-|                                   | The scope to access the           |
-|                                   | publishlink. Valid scopes are     |
-|                                   | Public, Private and               |
-|                                   | PeopleInOrganization              |
-+-----------------------------------+-----------------------------------+
+| 1 | 2 | 3 | 4 | 5 | 6 |
+|---|---|---|---|---|---|
+| A | B | C | D | E | F |
 
 4.  Check the status of the job by sending a request to
 
