@@ -25,17 +25,32 @@ must complete the following steps:
 
 Endpoint input properties
 
-| exportType             | **"**exportType**"**:"View" Defines what needs to be exported. Valid values for this property are                                                                                                        |
-|                        | View: When AIMS360 View data needs to be exported                                                                                                                                                        |
-|                        | Rreport: When AIMS360 Report data needs to be exported                                                                                                                                                   |
-|------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| exportDataSettings     | The details required to export required data. For exporting AIMS360 View, the details of the View need to be specified and for exporting AIMS360 Report data, the report criteria need to be specified   |
-| Source                 | "Source": "Orders" The source of the AIMS360 View. Click here for the list of Sources                                                                                                                    |
-| viewName               |  "viewName": "Open Orders" The name of the AIMS360 View. This can be System View or the Custom View available in the View dropdown on the AIMS360 application for different modules                      |
-| exportCriteriaVersion  |  "exportCriteriaVersion": "v1.0" The version of the generated report/view                                                                                                                                |
-| outputFormat           | "outputFormat": "csv"                                                                                                                                                                                    |
-|                        | The preferred format of the output. The supported formats are Excel, PDF, Formatted Excel and JSON                                                                                                       |
-| publishLinkAccessScope | "publishLinkAccessScope": "Private" The scope to access the publishlink. Valid scopes are Public, Private and PeopleInOrganization                                                                       |
+\| First Header \| Second Header \|
+
+\| ------------- \| ------------- \|
+
+\| Content Cell \| Content Cell \|
+
+\| Content Cell \| Content Cell \|
+
+\| exportType \| **"**exportType**"**:"View" Defines what needs to be exported.
+Valid values for this property are \| \| \| View: When AIMS360 View data needs
+to be exported \| \| \| Rreport: When AIMS360 Report data needs to be exported
+\|
+\|------------------------\|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\|
+\| exportDataSettings \| The details required to export required data. For
+exporting AIMS360 View, the details of the View need to be specified and for
+exporting AIMS360 Report data, the report criteria need to be specified \| \|
+Source \| "Source": "Orders" The source of the AIMS360 View. Click here for the
+list of Sources \| \| viewName \|  "viewName": "Open Orders" The name of the
+AIMS360 View. This can be System View or the Custom View available in the View
+dropdown on the AIMS360 application for different modules \| \|
+exportCriteriaVersion \|  "exportCriteriaVersion": "v1.0" The version of the
+generated report/view \| \| outputFormat \| "outputFormat": "csv" \| \| \| The
+preferred format of the output. The supported formats are Excel, PDF, Formatted
+Excel and JSON \| \| publishLinkAccessScope \| "publishLinkAccessScope":
+"Private" The scope to access the publishlink. Valid scopes are Public, Private
+and PeopleInOrganization \|
 
 1.  The endpoint returns the JobID, job status and Publishlink in the response.
 
