@@ -50,9 +50,9 @@ Response properties
 
 `POST jobsmanagement/ v1.0/backgroundjob?\$filter=jobId eq '{{BackgroundJobID}}'`
 
-The output will be available once the job status is received as Completed. For more details about the Job status endpoint [click here]().
+The output will be available once the job status is received as Completed. For more details about the Job status endpoint [click here](https://github.com/AIMS360/API/tree/master/Jobs).
 
-5.  Get the output/result using the Publishlink. The process to get the output depends on the publishlink access scope. For more details [click here]().
+5.  Get the output/result using the Publishlink. The process to get the output depends on the publishlink access scope. For more details [click here](https://github.com/AIMS360/API/tree/master/Access%20output%20using%20Publishlink).
 
 <br>
 
