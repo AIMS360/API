@@ -5,8 +5,7 @@ AIMS360 API
 
 The AIMS360 API allows you to access features on AIMS360 ERP application using
 Application Programing Interface. The API is a RESTful service which accepts
-input in JSON or query string format and return response as JSON or any other
-preferred supported format (excel/CSV/PDF).
+input request body in JSON or query string format and return response as JSON or XML.
 
 ### Authentication
 
@@ -14,7 +13,9 @@ The API endpoints require authorization to retrieve or set data. AIMS360
 recommends you use OAuth v2.0 to authenticate to the REST API. Authenticating
 via OAuth requires the generation of a bearer token.
 
-Generating a Bearer token
+Generating a Bearer token in Swagger
+
+Swagger URL:
 
 Step 1:
 
@@ -32,8 +33,10 @@ On Swagger documentation screen, click on Authorize button
 
 Step 3:
 
-On Authorization screen, provide the Username, password and copied Client ID and
+On Authorization screen, provide the AIMS360 Operator Username, password, copied Client ID and
 secret under Authorization Header. Click on Authorize button.
+
+Note: AIMS360 Operator should be an active API User.
 
 ![](media/a540e529f7e7114ac8878b1f39484aee.png)
 
