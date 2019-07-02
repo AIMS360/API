@@ -5,7 +5,8 @@ AIMS360 API
 
 The AIMS360 API allows you to access features on AIMS360 ERP application using
 Application Programing Interface. The API is a RESTful service which accepts
-input request body in JSON or query string format and return response as JSON or XML.
+input request body in JSON or query string format and return response as JSON or
+XML.
 
 ### Authentication
 
@@ -13,7 +14,35 @@ The API endpoints require authorization to retrieve or set data. AIMS360
 recommends you use OAuth v2.0 to authenticate to the REST API. Authenticating
 via OAuth requires the generation of a bearer token.
 
-Generating a Bearer token in Swagger
+Note: To generate Bearer token, the external API should be enabled for the
+Company and the Operator should have API permissions enabled.
+
+#### Generating Bearer Token on AIMS360 ERP Application
+
+Step 1:
+
+Navigate to API tab under User Settings. If the Bearer token/Access token is not
+generated earlier, Generate Access token button will be available. Click on
+Generate Access token button.
+
+![](media/1161981bb91a28440e45cb67b3dda0fa.png)
+
+Step 2:
+
+Enter the Username and Password on the AIMS360 login window displayed.
+
+![](media/33921651f05aa63fe4d2ac51c14b9f90.png)
+
+Step 3:
+
+After Successful validation of the username and password, the Bearer
+token/Access token will be generated and displayed on API tab
+
+![](media/52438300e2a7bd385d96c7791decc685.png)
+
+<br>
+
+#### Generating a Bearer token on Swagger
 
 Swagger URL:
 
@@ -33,8 +62,8 @@ On Swagger documentation screen, click on Authorize button
 
 Step 3:
 
-On Authorization screen, provide the AIMS360 Operator Username, password, copied Client ID and
-secret under Authorization Header. Click on Authorize button.
+On Authorization screen, provide the AIMS360 Operator Username, password, copied
+Client ID and secret under Authorization Header. Click on Authorize button.
 
 Note: AIMS360 Operator should be an active API User.
 

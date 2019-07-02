@@ -18,24 +18,21 @@ must complete the following steps:
 
 ![](media/f104067fe9e7d2e5db9593a201c0528c.png)
 
-1.  Obtain a valid access token. [Click here](https://github.com/AIMS360/API/blob/master/README.md) to know how to get access token
+1.  Obtain a valid access token. [Click here](https://github.com/AIMS360/API/blob/master/README.md) to know how to generate access token
 
 2.  Create a request for data by posting to `POST reports/v1.0/exportdata`
-    endpoint.
+    API.
 
 Endpoint input properties
 
 | Field Name             | Field Description                                                                                                                                                                                       |
 |:------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | exportType             | `"exportType":"View"` <br>Defines what needs to be exported. Valid values for this property are <br>View: When AIMS360 View data needs to be exported <br>Report: When AIMS360 Report data needs to be exported       |
-| exportDataSettings     | The details required to export required data. For exporting AIMS360 View, the details of the View need to be specified and for exporting AIMS360 Report data, the report criteria need to be specified. |
-| Source                 | `"Source":"Orders"` <br>The source of the AIMS360 View.  <br> Click here for the list of Sources                                                                                                                   |
-| viewName               | `"viewName": "Open Orders"` <br>The name of the AIMS360 View. This can be System View or the Custom View available in the View dropdown on the AIMS360 application for different modules                      |
-| exportCriteriaVersion  | `"exportCriteriaVersion": "v1.0"` <br>The version of the generated report/view                                                                                                                                |
-| outputFormat           | `"outputFormat": "csv"` <br>The preferred format of the output. The supported formats are Excel, PDF, Formatted Excel and JSON                                                                                |
+| exportDataSettings     | The details required to export data. <br> For exporting AIMS360 View, the details of the View need to be specified <br> `"exportDataSettings": {` <br> `"source":"Orders",` <br>`"viewName": "Open Orders"` <br>`}` <br> **source:** The source of the AIMS360 View. <br> **viewName:** The name of the AIMS360 View. This can be a System View or a Custom View available in the View dropdown on the AIMS360 application for different modules       <br>Click here for the list of Views                             |
+| outputFormat           | `"outputFormat": "csv"` <br>The preferred format of the output. <br>The supported formats for Views are JSON, CSV and Excel <br> The supported formats for Reports are JSON, CSV, Excel and PDF  (based on the report the supported formats varies)                                                                             |
 | publishLinkAccessScope | `"publishLinkAccessScope": "Private"` <br>The scope to access the publishlink. Valid scopes are Public, Private and PeopleInOrganization                                                                      |
 
-3.  The endpoint returns the JobID, job status and Publishlink in the response.
+3.  The API returns the JobID, job status, publishlink and publishlink access scope in the response.
 
 Response properties
 
@@ -48,11 +45,13 @@ Response properties
 
 4.  Check the status of the job by sending a request to
 
-`POST jobsmanagement/ v1.0/backgroundjob?\$filter=jobId eq '{{BackgroundJobID}}'`
+`POST jobsmanagement/v1.0/backgroundjob?\$filter=jobId eq'{{BackgroundJobID}}'`
 
-The output will be available once the job status is received as Completed. For more details about the Job status endpoint [click here](https://github.com/AIMS360/API/tree/master/Jobs).
+  For more details about the Job status API [click here](https://github.com/AIMS360/API/tree/master/Jobs).
 
-5.  Get the output/result using the Publishlink. The process to get the output depends on the publishlink access scope. For more details [click here](https://github.com/AIMS360/API/tree/master/Access%20output%20using%20Publishlink).
+Once the job status is received as Completed, the output can be obtained using publishlink.
+
+5.  Get the output/result using the Publishlink. 
 
 <br>
 
