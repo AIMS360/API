@@ -32,6 +32,8 @@ Endpoint input properties
 | outputFormat           | `"outputFormat": "csv"` <br>The preferred format of the output. <br>The supported formats for Views are JSON, CSV and Excel <br> The supported formats for Reports are JSON, CSV, Excel and PDF  (based on the report the supported formats varies)                                                                             |
 | publishLinkAccessScope | `"publishLinkAccessScope": "Private"` <br>The scope to access the publishlink. Valid scopes are Public, Private and PeopleInOrganization                                                                      |
 
+<br>
+
 3.  The API returns the JobID, job status, publishlink and publishlink access scope in the response.
 
 Response properties
@@ -43,6 +45,8 @@ Response properties
 | publishLink            	| `"publishLink":"https://api.aims360.rest/reports/v1.0/publishlink/XXXXXXXXXXXXXXXXXXXXXXXX/XXXXXXXXXXXXXXXXXXXXXXXX"` <br>The link to access the output of the job 	|
 | publishLinkAccessScope 	| `"publishLinkAccessScope": "Private"` <br> The scope to access the publishlink. Valid scopes are Public, Private and PeopleInOrganization                          	|
 
+<br>
+
 4.  Check the status of the job by sending a request to
 
 `POST jobsmanagement/v1.0/backgroundjob?\$filter=jobId eq'{{BackgroundJobID}}'`
@@ -51,7 +55,10 @@ Response properties
 
 Once the job status is received as Completed, the output can be obtained using publishlink.
 
-5.  Get the output/result using the Publishlink. 
+<br>
+
+
+5.  Get the output/result using the Publishlink. Based on the Publish Access Scope, Bearer Token needs to be passed for authentication. [Click here]() for more information on Publishlink Access scopes.
 
 <br>
 
