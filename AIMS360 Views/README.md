@@ -1,5 +1,3 @@
-AIMS360 System Views
-------------
 
 <style>
 .foo table {  
@@ -16,11 +14,17 @@ td {
 </style>
 
 
-<div class="foo">
+
+
+AIMS360 System Views
+------------
+
+
 
 The below are the available AIMS360 System Views
 
 **Codes**
+<div class="foo">
 
 |Source | ViewName                                                                                                                                                                                                                                                       |
 |:--------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -48,19 +52,26 @@ The below are the available AIMS360 System Views
 |  Replenishment Codes                                                                                                                                                                                                                                          | All Replenishment Codes                                                                                                                                                                                                                                        |
 |  Replenishment Codes                                                                                                                                                                                                                                          | All Replenishment Codes                                                                                                                                                                                                                                        |
 
+</div>
+
 <br>
 
 **Colors**
+
+<div class="foo">
 
 |Source | ViewName                                                                                                                                                                                                                                                       |
 |:--------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Colors                                                                                                                                                                                                                                                        | All                                                                                                                                                                                                                                                            |
 | Colors                                                                                                                                                                                                                                                        | Active Colors                                                                                                                                                                                                                                                  |
 | Colors                                                                                                                                                                                                                                                        | InActive Colors                                                                                                                                                                                                                                                |
+</div>
 
 <br>
 
 **Customers**
+
+<div class="foo">
 
 |Source | ViewName                                                                                                                                                                                                                                                       |
 |:--------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -78,6 +89,8 @@ The below are the available AIMS360 System Views
 | Stores                                                                                                                                                                                                                                                        | Inactive Stores                                                                                                                                                                                                                                                |
 | Stores                                                                                                                                                                                                                                                        | No Shipment Stores                                                                                                                                                                                                                                             |
 | Stores                                                                                                                                                                                                                                                        | All Stores                                                                                                                                                                                                                                                     |
+
+</div>
 
 <br>
 
