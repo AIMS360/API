@@ -21,8 +21,8 @@ Below are the Base URLs available to access the AIMS360 Rest APIs
 ### Authentication
 
 The API endpoints require authorization to retrieve or set data. AIMS360
-recommends you use OAuth v2.0 to authenticate to the REST API. Authenticating
-via OAuth requires the generation of a bearer token.
+requires you use OAuth v2.0 to authenticate to our REST API. Authenticating
+via OAuth requires the generation of a bearer token. All requests need to include Header Authorization.
 
 Note: To generate Bearer token, the API access should be enabled in the Company License.
 
