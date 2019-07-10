@@ -11,7 +11,7 @@ XML.
 ### Authentication
 
 The API endpoints require authorization to retrieve or set data. AIMS360
-requires you use OAuth v2.0 to authenticate to the REST API. Authenticating
+requires you use OAuth v2.0 to authenticate to our REST API. Authenticating
 via OAuth requires the generation of a bearer token. All requests need to include Header Authorization.
 
 Note: To generate Bearer token, the external API should be enabled for the
