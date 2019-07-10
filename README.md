@@ -8,18 +8,32 @@ Application Programing Interface. The API is a RESTful service which accepts
 input request body in JSON or query string format and return response as JSON or
 XML.
 
+### Base URL for REST APIs
+
+Below are the Base URLs available to access the AIMS360 Rest APIs
+
+| Tenant Location | Base URL                      |
+|-----------------|-------------------------------|
+| West US         | https://api.west.aims360.rest |
+| East US         | https://api.east.aims360.rest |
+
+
 ### Authentication
 
 The API endpoints require authorization to retrieve or set data. AIMS360
 recommends you use OAuth v2.0 to authenticate to the REST API. Authenticating
 via OAuth requires the generation of a bearer token.
 
-Note: To generate Bearer token, the external API should be enabled for the
-Company and the Operator should have API permissions enabled.
+Note: To generate Bearer token, the API access should be enabled in the Company License.
 
 #### Generating Bearer Token on AIMS360 ERP Application
 
 Step 1:
+Login to AIMS360 ERP application using the Username and password 
+
+Note: The respective logged in Operator must have API permissions enabled to generate Bearer Token. To get the API permissions enabled, contact your System Administrator.
+
+Step 2:
 
 Navigate to API tab under User Settings. If the Bearer token/Access token is not
 generated earlier, Generate Access token button will be available. Click on
@@ -27,13 +41,13 @@ Generate Access token button.
 
 ![](media/1161981bb91a28440e45cb67b3dda0fa.png)
 
-Step 2:
+Step 3:
 
 Enter the Username and Password on the AIMS360 login window displayed.
 
 ![](media/33921651f05aa63fe4d2ac51c14b9f90.png)
 
-Step 3:
+Step 4:
 
 After Successful validation of the username and password, the Bearer
 token/Access token will be generated and displayed on API tab
@@ -71,7 +85,12 @@ Note: AIMS360 Operator should be an active API User.
 
 Step 4:
 
-On successful validation of the provided details, bearer token will be generated
-and configured.
+On successful validation of the provided details, bearer token will be generated and configured.
 
 ![](media/c7c3e58b570c397cadcebdff59d5ec49.png)
+
+Step 5: 
+
+After successful authentication, close the Authorization screen and now you are ready to access the AIMS360 APIs.
+
+<br>

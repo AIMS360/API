@@ -3,19 +3,18 @@ AIMS360 Jobs
 
 ### Introduction
 
-For an API request, if the time to prepare the response is more than few seconds
-then the request will be handled by a Background job. The request will be placed
-in the queue and a job will be created to serve the request. The JobID and
-status will be returned as the response to the request.
+Any API which deals with huge data and takes time to process the requests will be handled by a Background job. i.e. When such API is called, the request will be placed
+in the queue and a job will be created to process the request. The JobID and
+status will be returned optionally with a Publishlink as response to the request.
 
 The status of the job needs to be checked in the regular intervals and when the
-job status is “Completed” the results are ready to access.
+job status is “Completed” the output will be ready to access.
 
 To check the status of the Job, the below endpoint needs to be called by passing
 the respective JobID
 
 `Get /jobsmanagement/odata/v1.0/backgroundjob?\$filter=jobId eq
-'cd89746d-78a6-4dc2-86b1-aaaf32c0ba36-20190116141747515'`
+'jobID'`
 
 Response Properties
 
@@ -58,10 +57,11 @@ Response Properties
  ### Rerun
 
 The job can be run again if the “canReRun” property of the job is Yes. To rerun
-the job, the below endpoint needs to be called by passing the respective JobID
+the job, the below API needs to be called by passing the respective JobID
 
 `POST
-jobsmanagement/v1.0/backgroundjob/d29fac30-650a-4ff2-b2b1-acab3c7472ea-XXXXXXXXXXXXXXXX/rerun`
+jobsmanagement/v1.0/backgroundjob/?\$filter=jobId eq
+'jobID'/rerun`
 
 Response properties
 
