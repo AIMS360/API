@@ -21,3 +21,5 @@ Below are the Base URLs available to access the AIMS360 Rest APIs
 
 The API endpoints require authorization to retrieve or set data. AIMS360
 requires you use OAuth v2.0 to authenticate to our REST API. 
+
+For more information about Authentication [click here.](https://github.com/AIMS360/API/tree/master/Authentication)
