@@ -19,7 +19,7 @@ must complete the following steps:
 ![](media/f104067fe9e7d2e5db9593a201c0528c.png)
 
 1.  Obtain a valid access token. [Click
-    here](https://github.com/AIMS360/API/blob/master/README.md) to know how to
+    here](https://github.com/AIMS360/API/blob/master/README.md) to learn how to
     generate access token
 
 2.  Create a request for data by posting to AQUA API.
