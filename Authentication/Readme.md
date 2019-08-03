@@ -40,7 +40,7 @@ token/Access token will be generated and displayed on API tab
 
 #### Generating a Bearer token on Swagger
 
-Swagger URL:
+Swagger URL:https://app.swaggerhub.com/apis-docs/AIMS360/AIMS360API/1.0.0
 
 Step 1:
 
