@@ -3,7 +3,7 @@ AIMS360 API
 
 ### Overview
 
-The AIMS360 API allows you to access features on AIMS360 ERP application using
+AIMS360 API allows you to access features on AIMS360 ERP application using
 Application Programing Interface. The API is a RESTful service which accepts
 input request body in JSON or query string format and return response as JSON or
 XML.
