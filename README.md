@@ -23,3 +23,8 @@ The API endpoints require authorization to retrieve or set data. AIMS360
 requires you use OAuth v2.0 to authenticate to our REST API. 
 
 For more information about Authentication [click here.](https://github.com/AIMS360/API/tree/master/Authentication)
+
+Getting started
+Authentication https://github.com/AIMS360/API/tree/master/Authentication
+Aqua https://github.com/AIMS360/API/tree/master/Authentication)
+Jobs https://github.com/AIMS360/API/tree/master/Jobs
