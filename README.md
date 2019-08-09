@@ -28,6 +28,6 @@ For more information about Authentication [click here.](https://github.com/AIMS3
 
 Authentication https://github.com/AIMS360/API/tree/master/Authentication
 
-Aqua https://github.com/AIMS360/API/tree/master/Authentication)
+Aqua https://github.com/AIMS360/API/tree/master/Aqua
 
 Jobs https://github.com/AIMS360/API/tree/master/Jobs
