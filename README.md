@@ -26,8 +26,10 @@ For more information about Authentication [click here.](https://github.com/AIMS3
 
 ### Getting Started
 
-Authentication https://github.com/AIMS360/API/tree/master/Authentication
+* [Authentication](https://github.com/AIMS360/API/tree/master/Authentication)
+* [Aqua](https://github.com/AIMS360/API/tree/master/Aqua)
+* [Document Management](https://github.com/AIMS360/API/tree/master/Document%20Management)
+* [Jobs](https://github.com/AIMS360/API/tree/master/Jobs)
 
-Aqua https://github.com/AIMS360/API/tree/master/Aqua
 
-Jobs https://github.com/AIMS360/API/tree/master/Jobs
+<br>
