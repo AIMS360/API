@@ -4,3199 +4,707 @@
 
 The below are the available AIMS360 System Views
 
+**Chargebacks**
+
+<table align='left' width='600'>
+  <tr >
+    <th>Source</th>
+    <th>View Name</th>
+  </tr>
+  
+  <tr> <td align='left' width='250'>Chargebacks</td> <td width='350'>Chargebacks having open balance                                                                                                                                                                                                                               </td></tr>
+<tr> <td align='left' width='250'>Chargebacks</td> <td width='350'>Closed chargebacks                                                                                                                                                                                                                                            </td></tr>
+<tr> <td align='left' width='250'>Chargebacks</td> <td width='350'>All Chargebacks                                                                                                                                                                                                                                               </td></tr>
+<tr> <td align='left' width='250'>Chargebacks</td> <td width='350'>Standalone Chargebacks                                                                                                                                                                                                                                        </td></tr>
+
+
+</table>
+
+
+<br>
+
+
+
 **Codes**
 
-
-
-<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=0 width=600
- style='width:6.25in;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184'>
- <thead>
-  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
-   <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>Source<o:p></o:p></span></b></p>
-   </td>
-   <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>View
-   Name<o:p></o:p></span></b></p>
-   </td>
+<table align='left' width='600'>
+  <tr >
+    <th>Source</th>
+    <th>View Name</th>
   </tr>
- </thead>
- <tr style='mso-yfti-irow:1'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Zip
-  Codes<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Default
-  View <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:2'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Body
-  Codes <o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Body Codes <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:3'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Seasons
-  <o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Seasons <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:4'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Divisions
-  <o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Divisions <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:5'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Debit
-  Adjustments <o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Debit Adjustments <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:6'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Credit
-  Adjustments <o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Credit Adjustments <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:7'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Classify
-  Customers <o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Classify Customers <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:8'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Classify
-  Vendors <o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Classify Vendors <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:9'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Return
-  Authorizations <o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Return Authorizations <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:10'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Special
-  Instructions <o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Special Instructions <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:11'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span class=SpellE><span style='mso-fareast-font-family:
-  "Times New Roman"'>Sytle</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'> Groups <o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  <span class=SpellE>Sytle</span> Groups <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:12'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>MFG
-  Operations <o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  MFG Operations <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:13'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Marketing
-  Regions <o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Marketing Regions <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:14'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Terms
-  <o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Terms <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:15'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>User
-  Codes <o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  User Codes <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:16'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Ship
-  Via <o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Ship Via <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:17'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>UPC
-  Catalog Groups <o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  UPC Catalog Groups <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:18'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Order
-  Status Reasons <o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Order Status Reasons <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:19'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>WIP
-  Category <o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  WIP Category <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:20'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Discount
-  Reasons <o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Discount Reasons <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:21'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>PO
-  Order Types <o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  PO Order Types <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:22;mso-yfti-lastrow:yes'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Replenishment
-  Codes <o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Replenishment Codes <o:p></o:p></span></p>
-  </td>
- </tr>
+  
+    <tr> <td align='left' width='250'>Zip Codes</td> <td width='350'>Default View                                                                                                                                                                                                                                                  </td></tr>
+<tr> <td align='left' width='250'> Body Codes                                                                                                                   </td> <td width='350'>All Body Codes                                                                                                                   </td></tr>
+<tr> <td align='left' width='250'> Seasons                                                                                                                                                                                                                                                   </td> <td width='350'>All Seasons                                                                                                                                                                                                                                                   </td></tr>
+<tr> <td align='left' width='250'> Divisions                                                                                                                                                                                                                                                 </td> <td width='350'>All Divisions                                                                                                                                                                                                                                                 </td></tr>
+<tr> <td align='left' width='250'> Debit Adjustments                                                                                                                                                                                                                                         </td> <td width='350'>All Debit Adjustments                                                                                                                                                                                                                                         </td></tr>
+<tr> <td align='left' width='250'> Credit Adjustments                                                                                                                                                                                                                                        </td> <td width='350'>All Credit Adjustments                                                                                                                                                                                                                                        </td></tr>
+<tr> <td align='left' width='250'> Classify Customers                                                                                                                                                                                                                                        </td> <td width='350'>All Classify Customers                                                                                                                                                                                                                                        </td></tr>
+<tr> <td align='left' width='250'> Classify Vendors                                                                                                                                                                                                                                          </td> <td width='350'>All Classify Vendors                                                                                                                                                                                                                                          </td></tr>
+<tr> <td align='left' width='250'> Return Authorizations                                                                                                                                                                                                                                     </td> <td width='350'>All Return Authorizations                                                                                                                                                                                                                                     </td></tr>
+<tr> <td align='left' width='250'> Special Instructions                                                                                                                                                                                                                                      </td> <td width='350'>All Special Instructions                                                                                                                                                                                                                                      </td></tr>
+<tr> <td align='left' width='250'> Sytle Groups                                                                                                                                                                                                                                              </td> <td width='350'>All Sytle Groups                                                                                                                                                                                                                                              </td></tr>
+<tr> <td align='left' width='250'> MFG Operations                                                                                                                                                                                                                                            </td> <td width='350'>All MFG Operations                                                                                                                                                                                                                                            </td></tr>
+<tr> <td align='left' width='250'> Marketing Regions                                                                                                                                                                                                                                         </td> <td width='350'>All Marketing Regions                                                                                                                                                                                                                                         </td></tr>
+<tr> <td align='left' width='250'> Terms                                                                                                                                                                                                                                                     </td> <td width='350'>All Terms                                                                                                                                                                                                                                                     </td></tr>
+<tr> <td align='left' width='250'> User Codes                                                                                                                                                                                                                                                </td> <td width='350'>All User Codes                                                                                                                                                                                                                                                </td></tr>
+<tr> <td align='left' width='250'> Ship Via                                                                                                                                                                                                                                                  </td> <td width='350'>All Ship Via                                                                                                                                                                                                                                                  </td></tr>
+<tr> <td align='left' width='250'> UPC Catalog Groups                                                                                                                                                                                                                                        </td> <td width='350'>All UPC Catalog Groups                                                                                                                                                                                                                                        </td></tr>
+<tr> <td align='left' width='250'> Order Status Reasons                                                                                                                                                                                                                                      </td> <td width='350'>All Order Status Reasons                                                                                                                                                                                                                                      </td></tr>
+<tr> <td align='left' width='250'> WIP Category                                                                                                                                                                                                                                              </td> <td width='350'>All WIP Category                                                                                                                                                                                                                                              </td></tr>
+<tr> <td align='left' width='250'> Discount Reasons                                                                                                                                                                                                                                          </td> <td width='350'>All Discount Reasons                                                                                                                                                                                                                                          </td></tr>
+<tr> <td align='left' width='250'> PO Order Types                                                                                                                                                                                                                                            </td> <td width='350'>All PO Order Types                                                                                                                                                                                                                                            </td></tr>
+<tr> <td align='left' width='250'> Replenishment Codes                                                                                                                                                                                                                                       </td> <td width='350'>All Replenishment Codes                                                                                                                                                                                                                                       </td></tr>
+
 </table>
+
 
 </br>
 
 **Colors** 
 
-<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=0 width=600
- style='width:6.25in;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184'>
- <thead>
-  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
-   <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>Source<o:p></o:p></span></b></p>
-   </td>
-   <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>View
-   Name<o:p></o:p></span></b></p>
-   </td>
+<table align='left' width='600'>
+  <tr >
+    <th>Source</th>
+    <th>View Name</th>
   </tr>
- </thead>
- <tr style='mso-yfti-irow:1'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Colors<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:2'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Colors<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Active
-  Colors <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:3;mso-yfti-lastrow:yes'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Colors<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span class=SpellE><span style='mso-fareast-font-family:
-  "Times New Roman"'>InActive</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'> Colors <o:p></o:p></span></p>
-  </td>
- </tr>
+  
+   <tr> <td align='left' width='250'>Colors</td> <td width='350'>All                                                                                                                                                                                                                                                    </td></tr>
+<tr> <td align='left' width='250'>Colors</td> <td width='350'>Active Colors                                                                                                                                                                                                                                             </td></tr>
+<tr> <td align='left' width='250'>Colors</td> <td width='350'>InActive Colors                                                                                                                                                                                    </td></tr>
+
+
 </table>
 
+
 </br>
+
+**Customer Stores**
+
+<table align='left' width='600'>
+  <tr >
+    <th>Source</th>
+    <th>View Name</th>
+  </tr>
+  
+  <tr> <td align='left' width='250'>Stores</td> <td width='350'>Active Stores                                                                                                                                                                                                                                                 </td></tr>
+<tr> <td align='left' width='250'>Stores</td> <td width='350'>Inactive Stores                                                                                                                                                                                                                                               </td></tr>
+<tr> <td align='left' width='250'>Stores</td> <td width='350'>No Shipment Stores                                                                                                                                                                                                                                            </td></tr>
+<tr> <td align='left' width='250'>Stores</td> <td width='350'>All Stores                                                                                                                                                                                                                                                    </td></tr>
+
+
+</table>
+
+
+<br>
 
 **Customers** 
 
-<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=0 width=600
- style='width:6.25in;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184'>
- <thead>
-  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
-   <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>Source<o:p></o:p></span></b></p>
-   </td>
-   <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>View
-   Name<o:p></o:p></span></b></p>
-   </td>
+<table align='left' width='600'>
+  <tr >
+    <th>Source</th>
+    <th>View Name</th>
   </tr>
- </thead>
- <tr style='mso-yfti-irow:1'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Chargebacks<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Chargebacks
-  having open balance <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:2'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Chargebacks<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Closed
-  chargebacks <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:3'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Chargebacks<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Chargebacks <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:4'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Chargebacks<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Standalone
-  Chargebacks <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:5'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Customers<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Active
-  Customers <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:6'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Customers<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Inactive
-  Customers <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:7'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Customers<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>No
-  Shipment Customers <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:8'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Customers<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Customers <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:9'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Customers
-  Balance<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Customers
-  <span class=GramE>With</span> Open Balance <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:10'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Customers
-  Balance<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Customers
-  <span class=GramE>With</span> Past Due Balance <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:11'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Stores<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Active
-  Stores <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:12'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Stores<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Inactive
-  Stores <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:13'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Stores<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>No
-  Shipment Stores <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:14;mso-yfti-lastrow:yes'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Stores<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Stores <o:p></o:p></span></p>
-  </td>
- </tr>
+  
+  <tr> <td align='left' width='250'>Customers</td> <td width='350'>Active Customers                                                                                                                                                                                                                                              </td></tr>
+<tr> <td align='left' width='250'>Customers</td> <td width='350'>Inactive Customers                                                                                                                                                                                                                                            </td></tr>
+<tr> <td align='left' width='250'>Customers</td> <td width='350'>No Shipment Customers                                                                                                                                                                                                                                         </td></tr>
+<tr> <td align='left' width='250'>Customers</td> <td width='350'>All Customers                                                                                                                                                                                                                                                 </td></tr>
+<tr> <td align='left' width='250'>Customers Balance</td> <td width='350'>Customers With Open Balance                                                                                                                                                                                                                                   </td></tr>
+<tr> <td align='left' width='250'>Customers Balance</td> <td width='350'>Customers With Past Due Balance                                                                                                                                                                                                                               </td></tr>
+
+
 </table>
 
-</br>
+<br>
+
+
+
+
 
 **Cut Tickets** 
 
-<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=0 width=600
- style='width:6.25in;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184'>
- <thead>
-  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
-   <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>Source<o:p></o:p></span></b></p>
-   </td>
-   <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>View
-   Name<o:p></o:p></span></b></p>
-   </td>
+<table align='left' width='600'>
+  <tr >
+    <th>Source</th>
+    <th>View Name</th>
   </tr>
- </thead>
- <tr style='mso-yfti-irow:1'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Cut
-  Tickets<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Cut Ticket Lines <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:2'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Cut
-  Tickets<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Open
-  <span class=GramE>Or</span> Hold Cut Ticket Lines <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:3'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Cut
-  Tickets<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Closed
-  Cut Ticket Lines <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:4'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Cut
-  Tickets<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Cut Tickets <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:5'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Cut
-  Tickets<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Open
-  <span class=GramE>Or</span> Hold Cut Tickets <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:6;mso-yfti-lastrow:yes'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Cut
-  Tickets<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Closed
-  Cut Tickets <o:p></o:p></span></p>
-  </td>
- </tr>
+  
+  <tr> <td align='left' width='250'>Cut Tickets</td> <td width='350'>All Cut Ticket Lines                                                                                                                                                                                                                                          </td></tr>
+<tr> <td align='left' width='250'>Cut Tickets</td> <td width='350'>Open Or Hold Cut Ticket Lines                                                                                                                                                                                                                                 </td></tr>
+<tr> <td align='left' width='250'>Cut Tickets</td> <td width='350'>Closed Cut Ticket Lines                                                                                                                                                                                                                                       </td></tr>
+<tr> <td align='left' width='250'>Cut Tickets</td> <td width='350'>All Cut Tickets                                                                                                                                                                                                                                               </td></tr>
+<tr> <td align='left' width='250'>Cut Tickets</td> <td width='350'>Open Or Hold Cut Tickets                                                                                                                                                                                                                                      </td></tr>
+<tr> <td align='left' width='250'>Cut Tickets</td> <td width='350'>Closed Cut Tickets                                                                                                                                                                                                                                            </td></tr>
+<tr> <td align='left' width='250'>Cut Tickets</td> <td width='350'>Open/hold Cut Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Cut Tickets</td> <td width='350'>Completed Cut Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Cut Tickets</td> <td width='350'>Canceled Cut Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Cut Tickets</td> <td width='350'>All Cut Line Details by Size</td></tr>
+
+
 </table>
+
 </br>
 
 **EDI**
 
-<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=0 width=600
- style='width:6.25in;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184'>
- <thead>
-  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
-   <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>Source<o:p></o:p></span></b></p>
-   </td>
-   <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>View
-   Name<o:p></o:p></span></b></p>
-   </td>
+<table align='left' width='600'>
+  <tr >
+    <th> Source</th>
+    <th>View Name</th>
   </tr>
- </thead>
- <tr style='mso-yfti-irow:1'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>3PL
-  Warehouses<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Default
-  View <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:2'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>EDI856
-  Shipments<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Pending
-  EDI Shipments <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:3'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>EDI856
-  Shipments<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Completed
-  EDI Shipments <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:4'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>EDI856
-  Shipments<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  EDI Shipments <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:5;mso-yfti-lastrow:yes'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>EDI856
-  Shipments<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span class=GramE><span style='mso-fareast-font-family:
-  "Times New Roman"'>Non EDI</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'> Shipments <o:p></o:p></span></p>
-  </td>
- </tr>
+  
+  <tr> <td align='left' width='250'>3PL Warehouses</td> <td width='350'>Default View                                                                                                                                                                                                                                                  </td></tr>
+<tr> <td align='left' width='250'>EDI856 Shipments</td> <td width='350'>Pending EDI Shipments                                                                                                                                                                                                                                         </td></tr>
+<tr> <td align='left' width='250'>EDI856 Shipments</td> <td width='350'>Completed EDI Shipments                                                                                                                                                                                                                                       </td></tr>
+<tr> <td align='left' width='250'>EDI856 Shipments</td> <td width='350'>All EDI Shipments                                                                                                                                                                                                                                             </td></tr>
+<tr> <td align='left' width='250'>EDI856 Shipments</td> <td width='350'>Non EDI Shipments                                                                                                                                                                                                                                             </td></tr>
+
 </table>
 
 </br>
 
 **Garment Dyes**
 
-<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=0 width=600
- style='width:6.25in;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184'>
- <thead>
-  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
-   <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>Source<o:p></o:p></span></b></p>
-   </td>
-   <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>View
-   Name<o:p></o:p></span></b></p>
-   </td>
+<table align='left' width='600'>
+  <tr >
+    <th>Source</th>
+    <th>View Name</th>
   </tr>
- </thead>
- <tr style='mso-yfti-irow:1'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Garment
-  Dyes<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Garment Dye <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:2'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Garment
-  Dyes<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Open
-  Garment Dye <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:3'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Garment
-  Dyes<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Closed
-  Garment Dye <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:4'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Garment
-  Dyes<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Garment Dye-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:5'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Garment
-  Dyes<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Open
-  Garment Dye-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:6;mso-yfti-lastrow:yes'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Garment
-  Dyes<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Closed
-  Garment Dye-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
+  
+ <tr> <td align='left' width='250'>Garment Dyes</td> <td width='350'>All Garment Dye                                                                                                                                                                                                                                               </td></tr>
+<tr> <td align='left' width='250'>Garment Dyes</td> <td width='350'>Open Garment Dye                                                                                                                                                                                                                                              </td></tr>
+<tr> <td align='left' width='250'>Garment Dyes</td> <td width='350'>Closed Garment Dye                                                                                                                                                                                                                                            </td></tr>
+<tr> <td align='left' width='250'>Garment Dyes</td> <td width='350'>All Garment Dye-Line Details                                                                                                                                                                                                                                  </td></tr>
+<tr> <td align='left' width='250'>Garment Dyes</td> <td width='350'>Open Garment Dye-Line Details                                                                                                                                                                                                                                 </td></tr>
+<tr> <td align='left' width='250'>Garment Dyes</td> <td width='350'>Closed Garment Dye-Line Details                                                                                                                                                                                                                               </td></tr>
+<tr> <td align='left' width='250'>Garment Dyes</td> <td width='350'>Open Garment Dye Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Garment Dyes</td> <td width='350'>Completed Garment Dye Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Garment Dyes</td> <td width='350'>Canceled Garment Dye Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Garment Dyes</td> <td width='350'>All Garment Dye Line Details by Size</td></tr>
+
 </table>
 
 </br>
 
 **Intelligent Allocation** 
 
-<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=0 width=600
- style='width:6.25in;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184'>
- <thead>
-  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
-   <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>Source<o:p></o:p></span></b></p>
-   </td>
-   <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>View
-   Name<o:p></o:p></span></b></p>
-   </td>
+<table align='left' width='600'>
+  <tr >
+    <th>Source</th>
+    <th>View Name</th>
   </tr>
- </thead>
- <tr style='mso-yfti-irow:1'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Allocation
-  Batches<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Batches <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:2'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Allocation
-  Batches<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Active
-  Batches <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:3'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Allocation
-  Batches<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span class=SpellE><span style='mso-fareast-font-family:
-  "Times New Roman"'>InActive</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'> Batches <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:4;mso-yfti-lastrow:yes'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Allocation
-  Profiles<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Allocation
-  Profile <o:p></o:p></span></p>
-  </td>
- </tr>
+  
+ <tr> <td align='left' width='250'>Allocation Batches</td> <td width='350'>All Batches                                                                                                                                                                                                                                                   </td></tr>
+<tr> <td align='left' width='250'>Allocation Batches</td> <td width='350'>Active Batches                                                                                                                                                                                                                                                </td></tr>
+<tr> <td align='left' width='250'>Allocation Batches</td> <td width='350'>InActive Batches                                                                                                                                                                                                                                              </td></tr>
+<tr> <td align='left' width='250'>Allocation Profiles</td> <td width='350'>Allocation Profile                                                                                                                                                                                                                                            </td></tr>
+
+
 </table>
+
 
 </br>
 
 **Invoices** 
 
-<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=0 width=600
- style='width:6.25in;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184'>
- <thead>
-  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
-   <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>Source<o:p></o:p></span></b></p>
-   </td>
-   <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>View
-   Name<o:p></o:p></span></b></p>
-   </td>
+<table align='left' width='600'>
+  <tr >
+    <th>Source</th>
+    <th>View Name</th>
   </tr>
- </thead>
- <tr style='mso-yfti-irow:1'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Invoices <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:2'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Invoices Including Child Invoices <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:3'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Balance
-  Owing <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:4'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Zero
-  Balance <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:5'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Invoices Exclude Voids <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:6'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Only
-  voids <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:7'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Last
-  30 Days Exclude voids <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:8'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Last
-  90 Days Exclude voids <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:9'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Last
-  180 Days Exclude voids <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:10'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Last
-  One Year Exclude voids <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:11'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Today
-  <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:12'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Yesterday
-  <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:13'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Last
-  Month <span class=GramE>To</span> Date <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:14'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Last
-  Month <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:15'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Last
-  Quarter <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:16'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Last
-  Quarter <span class=GramE>To</span> Date <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:17'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Last
-  Year <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:18'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Month
-  <span class=GramE>To</span> Date <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:19'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Next
-  4Weeks <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:20'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Next
-  Quarter <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:21'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Next
-  Week <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:22'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Next
-  Year <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:23'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Year
-  <span class=GramE>To</span> Date <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:24'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Last
-  Year <span class=GramE>To</span> Date <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:25'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span class=SpellE><span style='mso-fareast-font-family:
-  "Times New Roman"'>Curent</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'> Year <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:26'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Current
-  Week <span class=GramE>To</span> Date <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:27'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Current
-  Week <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:28'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Last
-  Week <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:29'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Last
-  Week <span class=GramE>To</span> Date <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:30'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Quarter
-  <span class=GramE>To</span> Date <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:31'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Current
-  Month <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:32'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Next
-  Month <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:33'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Current
-  Quarter <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:34'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Invoices-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:35'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Balance
-  Owing-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:36'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Zero
-  Balance-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:37'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Invoices Exclude Voids-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:38'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Last
-  30 Days Exclude <span class=GramE>voids</span>-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:39'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Last
-  90 Days Exclude <span class=GramE>voids</span>-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:40'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Last
-  180 Days Exclude <span class=GramE>voids</span>-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:41'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Last
-  One Year Exclude <span class=GramE>voids</span>-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:42'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Sent
-  810 <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:43'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Pending
-  810 <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:44;mso-yfti-lastrow:yes'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Invoices<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Revised
-  Pending 810 <o:p></o:p></span></p>
-  </td>
- </tr>
+  
+ <tr> <td align='left' width='250'>Invoices</td> <td width='350'>All Invoices                                                                                                                                                                                                                                                  </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>All Invoices Including Child Invoices                                                                                                                                                                                                                         </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Balance Owing                                                                                                                                                                                                                                                 </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Zero Balance                                                                                                                                                                                                                                                  </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>All Invoices Exclude Voids                                                                                                                                                                                                                                    </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Only voids                                                                                                                                                                                                                                                    </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Last 30 Days Exclude voids                                                                                                                                                                                                                                    </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Last 90 Days Exclude voids                                                                                                                                                                                                                                    </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Last 180 Days Exclude voids                                                                                                                                                                                                                                   </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Last One Year Exclude voids                                                                                                                                                                                                                                   </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Today                                                                                                                                                                                                                                                         </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Yesterday                                                                                                                                                                                                                                                     </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Last Month To Date                                                                                                                                                                                                                                            </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Last Month                                                                                                                                                                                                                                                    </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Last Quarter                                                                                                                                                                                                                                                  </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Last Quarter To Date                                                                                                                                                                                                                                          </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Last Year                                                                                                                                                                                                                                                     </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Month To Date                                                                                                                                                                                                                                                 </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Next 4Weeks                                                                                                                                                                                                                                                   </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Next Quarter                                                                                                                                                                                                                                                  </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Next Week                                                                                                                                                                                                                                                     </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Next Year                                                                                                                                                                                                                                                     </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Year To Date                                                                                                                                                                                                                                                  </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Last Year To Date                                                                                                                                                                                                                                             </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Curent Year                                                                                                                                                                                                                                                   </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Current Week To Date                                                                                                                                                                                                                                          </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Current Week                                                                                                                                                                                                                                                  </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Last Week                                                                                                                                                                                                                                                     </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Last Week To Date                                                                                                                                                                                                                                             </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Quarter To Date                                                                                                                                                                                                                                               </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Current Month                                                                                                                                                                                                                                                 </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Next Month                                                                                                                                                                                                                                                    </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Current Quarter                                                                                                                                                                                                                                               </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>All Invoices-Line Details                                                                                                                                                                                                                                     </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Balance Owing-Line Details                                                                                                                                                                                                                                    </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Zero Balance-Line Details                                                                                                                                                                                                                                     </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>All Invoices Exclude Voids-Line Details                                                                                                                                                                                                                       </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Last 30 Days Exclude voids-Line Details                                                                                                                                                                                                                       </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Last 90 Days Exclude voids-Line Details                                                                                                                                                                                                                       </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Last 180 Days Exclude voids-Line Details                                                                                                                                                                                                                      </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Last One Year Exclude voids-Line Details                                                                                                                                                                                                                      </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Sent 810                                                                                                                                                                                                                                                      </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Pending 810                                                                                                                                                                                                                                                   </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Revised Pending 810                                                                                                                                                                                                                                           </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Invoice Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Balance Owing-Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Zero Balance-Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>All Invoices Exclude Voids-Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Last 30 Days Exclude voids-Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Last 90 Days Exclude voids-Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Last 180 Days Exclude voids-Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Last One Year Exclude voids-Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Today-Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Yesterday-Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Last Month To Date-Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Last Month-Line Details by Size </td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Last Quarter-Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Last Quarter To Date-Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Last Year-Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Month To Date-Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Next 4Weeks-Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Next Quarter-Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Next Week-Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Next Year-Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Year To Date-Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Last Year To Date-Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Current Year-Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Current Week To Date-Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Current Week-Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Last Week-Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Last Week To Date-Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Quarter To Date-Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Current Month-Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Next Month-Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Invoices</td> <td width='350'>Current Quarter-Line Details by Size</td></tr>
+
 </table>
 
 </br>
 
 **Materials** 
 
-<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=0 width=600
- style='width:6.25in;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184'>
- <thead>
-  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
-   <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>Source<o:p></o:p></span></b></p>
-   </td>
-   <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>View
-   Name<o:p></o:p></span></b></p>
-   </td>
+<table align='left' width='600'>
+  <tr >
+    <th>Source</th>
+    <th>View Name</th>
   </tr>
- </thead>
- <tr style='mso-yfti-irow:1'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Materials<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Active
-  Materials <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:2'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Materials<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Inactive
-  Materials <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:3;mso-yfti-lastrow:yes'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Materials<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Materials <o:p></o:p></span></p>
-  </td>
- </tr>
+  
+ <tr> <td align='left' width='250'>Materials</td> <td width='350'>Active Materials                                                                                                                                                                                                                                              </td></tr>
+<tr> <td align='left' width='250'>Materials</td> <td width='350'>Inactive Materials                                                                                                                                                                                                                                            </td></tr>
+<tr> <td align='left' width='250'>Materials</td> <td width='350'>All Materials                                                                                                                                                                                                                                                 </td></tr>
+
 </table>
 
 </br>
 
 **Operators** 
 
-<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=0 width=600
- style='width:6.25in;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184'>
- <thead>
-  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
-   <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>Source<o:p></o:p></span></b></p>
-   </td>
-   <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>View
-   Name<o:p></o:p></span></b></p>
-   </td>
+<table align='left' width='600'>
+  <tr >
+    <th>Source</th>
+    <th>View Name</th>
   </tr>
- </thead>
- <tr style='mso-yfti-irow:1'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Operators<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Active
-  Operators <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:2'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Operators<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span class=SpellE><span style='mso-fareast-font-family:
-  "Times New Roman"'>InActive</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'> Operators <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:3;mso-yfti-lastrow:yes'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Operators<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Operators <o:p></o:p></span></p>
-  </td>
- </tr>
+  
+ <tr> <td align='left' width='250'>Operators</td> <td width='350'>Active Operators                                                                                                                                                                                                                                              </td></tr>
+<tr> <td align='left' width='250'>Operators</td> <td width='350'>InActive Operators                                                                                                                                                                                                                                            </td></tr>
+<tr> <td align='left' width='250'>Operators</td> <td width='350'>All Operators                                                                                                                                                                                                                                                 </td></tr>
+
 </table>
+
 
 </br>
 
 **Orders** 
 
-<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=0 width=600
- style='width:6.25in;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184'>
- <thead>
-  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
-   <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>Source<o:p></o:p></span></b></p>
-   </td>
-   <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>View
-   Name<o:p></o:p></span></b></p>
-   </td>
+<table align='left' width='600'>
+  <tr >
+    <th>Source</th>
+    <th>View Name</th>
   </tr>
- </thead>
- <tr style='mso-yfti-irow:1'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Open/Hold
-  Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:2'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Open/Hold
-  Orders with Allocation <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:3'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Open/Hold
-  Orders with MPT Name <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:4'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Open
-  Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:5'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Hold
-  Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:6'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Cancelled
-  Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:7'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Completed
-  Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:8'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:9'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Orders with MPT Name <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:10'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Bulk
-  Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:11'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>EDI
-  Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:12'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Weblink
-  Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:13'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span class=SpellE><span style='mso-fareast-font-family:
-  "Times New Roman"'>Easyshop</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'> Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:14'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span class=SpellE><span style='mso-fareast-font-family:
-  "Times New Roman"'>Remotelink</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'> Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:15'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Current
-  Month Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:16'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Overdue
-  Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:17'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Current
-  Quarter Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:18'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span class=SpellE><span style='mso-fareast-font-family:
-  "Times New Roman"'>Upto</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'> Next Month Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:19'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span class=SpellE><span style='mso-fareast-font-family:
-  "Times New Roman"'>Upto</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'> Next 90 Days Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:20'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders
-  <span class=GramE>With</span> Multiple Pick Tickets <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:21'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Today
-  <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:22'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Current
-  Week <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:23'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Current
-  Week <span class=GramE>To</span> Date <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:24'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Current
-  Quarter <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:25'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Current
-  Year <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:26'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Month
-  <span class=GramE>To</span> Date <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:27'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Quarter
-  <span class=GramE>To</span> Date <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:28'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Year
-  <span class=GramE>To</span> Date <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:29'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Yesterday
-  <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:30'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Last
-  Week <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:31'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Last
-  Week <span class=GramE>To</span> Date <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:32'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Last
-  Month <span class=GramE>To</span> Date <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:33'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Last
-  Quarter <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:34'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Last
-  Quarter <span class=GramE>To</span> Date <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:35'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Last
-  Year <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:36'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Last
-  Year <span class=GramE>To</span> Date <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:37'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Next
-  Week <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:38'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Next
-  4Weeks <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:39'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Next
-  Month <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:40'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Next
-  Quarter <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:41'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Next
-  Year <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:42'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders
-  Due Next Month <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:43'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders
-  Due This Month <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:44'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders
-  Created This Month <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:45'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders
-  Created Last Month <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:46'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Open/Hold-Line
-  Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:47'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Open/Hold-Line
-  Details with Allocation <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:48'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Open
-  Orders-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:49'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Hold
-  Orders-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:50'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Completed
-  Orders-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:51'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Cancelled
-  Orders-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:52'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Orders-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:53'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Bulk
-  Orders-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:54'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>EDI
-  Orders-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:55'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Weblink
-  Orders-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:56'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span class=SpellE><span style='mso-fareast-font-family:
-  "Times New Roman"'>Easyshop</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'> Orders-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:57'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span class=SpellE><span style='mso-fareast-font-family:
-  "Times New Roman"'>Remotelink</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'> Orders-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:58'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Current
-  Month Orders-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:59'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Overdue
-  Orders-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:60'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Current
-  Quarter Orders-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:61'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span class=SpellE><span style='mso-fareast-font-family:
-  "Times New Roman"'>Upto</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'> Next Month Orders-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:62'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span class=SpellE><span style='mso-fareast-font-family:
-  "Times New Roman"'>Upto</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'> Next 90 Days Orders-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:63'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Order
-  Lines<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Open
-  Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:64'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Order
-  Lines<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Hold
-  Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:65'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Order
-  Lines<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Open/Hold
-  Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:66'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Order
-  Lines<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Completed
-  Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:67'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Order
-  Lines<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:68'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Order
-  Lines<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Cancelled
-  Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:69'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Order
-  Lines<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Bulk
-  Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:70'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Order
-  Lines<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>EDI
-  Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:71'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Order
-  Lines<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Weblink
-  Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:72'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Order
-  Lines<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span class=SpellE><span style='mso-fareast-font-family:
-  "Times New Roman"'>Easyshop</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'> Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:73'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Order
-  Lines<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span class=SpellE><span style='mso-fareast-font-family:
-  "Times New Roman"'>Remotelink</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'> Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:74'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders
-  <span class=GramE>With</span> Pick Tickets<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Open/Hold
-  Orders <span class=GramE>With</span> <span class=SpellE>PickTickets</span> <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:75'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders
-  <span class=GramE>With</span> Pick Tickets<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Open/Hold
-  Orders W/O <span class=SpellE>PickTickets</span> <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:76'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders
-  <span class=GramE>With</span> Pick Tickets<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Open
-  Orders <span class=GramE>With</span> <span class=SpellE>PickTickets</span> <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:77'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders
-  <span class=GramE>With</span> Pick Tickets<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Open
-  Orders W/O <span class=SpellE>PickTickets</span> <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:78'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders
-  <span class=GramE>With</span> Pick Tickets<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Hold
-  Orders <span class=GramE>With</span> <span class=SpellE>PickTickets</span> <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:79'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders
-  <span class=GramE>With</span> Pick Tickets<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Hold
-  Orders W/O <span class=SpellE>PickTickets</span> <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:80'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders
-  <span class=GramE>With</span> Pick Tickets<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Orders <span class=GramE>With</span> <span class=SpellE>PickTickets</span> <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:81;mso-yfti-lastrow:yes'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Orders
-  <span class=GramE>With</span> Pick Tickets<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Orders W/O <span class=SpellE>PickTickets</span> <o:p></o:p></span></p>
-  </td>
- </tr>
+  
+ <tr> <td align='left' width='250'>Orders</td> <td width='350'>Open/Hold Orders                                                                                                                                                                                                                                              </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Open/Hold Orders with Allocation                                                                                                                                                                                                                              </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Open/Hold Orders with MPT Name                                                                                                                                                                                                                                </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Open Orders                                                                                                                                                                                                                                                   </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Hold Orders                                                                                                                                                                                                                                                   </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Cancelled Orders                                                                                                                                                                                                                                              </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Completed Orders                                                                                                                                                                                                                                              </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>All Orders                                                                                                                                                                                                                                                    </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>All Orders with MPT Name                                                                                                                                                                                                                                      </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Bulk Orders                                                                                                                                                                                                                                                   </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>EDI Orders                                                                                                                                                                                                                                                    </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Weblink Orders                                                                                                                                                                                                                                                </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Easyshop Orders                                                                                                                                                                                                                                               </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Remotelink Orders                                                                                                                                                                                                                                             </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Current Month Orders                                                                                                                                                                                                                                          </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Overdue Orders                                                                                                                                                                                                                                                </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Current Quarter Orders                                                                                                                                                                                                                                        </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Upto Next Month Orders                                                                                                                                                                                                                                        </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Upto Next 90 Days Orders                                                                                                                                                                                                                                      </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Orders With Multiple Pick Tickets                                                                                                                                                                                                                             </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Today                                                                                                                                                                                                                                                         </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Current Week                                                                                                                                                                                                                                                  </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Current Week To Date                                                                                                                                                                                                                                          </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Current Quarter                                                                                                                                                                                                                                               </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Current Year                                                                                                                                                                                                                                                  </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Month To Date                                                                                                                                                                                                                                                 </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Quarter To Date                                                                                                                                                                                                                                               </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Year To Date                                                                                                                                                                                                                                                  </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Yesterday                                                                                                                                                                                                                                                     </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Last Week                                                                                                                                                                                                                                                     </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Last Week To Date                                                                                                                                                                                                                                             </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Last Month To Date                                                                                                                                                                                                                                            </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Last Quarter                                                                                                                                                                                                                                                  </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Last Quarter To Date                                                                                                                                                                                                                                          </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Last Year                                                                                                                                                                                                                                                     </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Last Year To Date                                                                                                                                                                                                                                             </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Next Week                                                                                                                                                                                                                                                     </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Next 4Weeks                                                                                                                                                                                                                                                   </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Next Month                                                                                                                                                                                                                                                    </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Next Quarter                                                                                                                                                                                                                                                  </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Next Year                                                                                                                                                                                                                                                     </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Orders Due Next Month                                                                                                                                                                                                                                         </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'> Orders Due This Month                                                                                                                                                                                                                                        </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Orders Created This Month                                                                                                                                                                                                                                     </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Orders Created Last Month                                                                                                                                                                                                                                     </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Open/Hold-Line Details                                                                                                                                                                                                                                        </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Open/Hold-Line Details with Allocation                                                                                                                                                                                                                        </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Open Orders-Line Details                                                                                                                                                                                                                                      </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Hold Orders-Line Details                                                                                                                                                                                                                                      </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Completed Orders-Line Details                                                                                                                                                                                                                                 </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Cancelled Orders-Line Details                                                                                                                                                                                                                                 </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>All Orders-Line Details                                                                                                                                                                                                                                       </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Bulk Orders-Line Details                                                                                                                                                                                                                                      </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>EDI Orders-Line Details                                                                                                                                                                                                                                       </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Weblink Orders-Line Details                                                                                                                                                                                                                                   </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Easyshop Orders-Line Details                                                                                                                                                                                                                                  </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Remotelink Orders-Line Details                                                                                                                                                                                                                                </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Current Month Orders-Line Details                                                                                                                                                                                                                             </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Overdue Orders-Line Details                                                                                                                                                                                                                                   </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Current Quarter Orders-Line Details                                                                                                                                                                                                                           </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Upto Next Month Orders-Line Details                                                                                                                                                                                                                           </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Upto Next 90 Days Orders-Line Details                                                                                                                                                                                                                         </td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Open/Hold Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Completed Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Canceled Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>All Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Current Month Orders-Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Overdue Orders-Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Current Quarter Orders-Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Upto Next Month Orders-Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Upto Next 90 Days Orders-Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Today-Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Current Week-Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Current Week To Date-Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Current Quarter-Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Current Year-Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Month To Date-Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Quarter To Date-Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Year To Date-Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Yesterday-Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Last Week-Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Last Week To Date-Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Last Month To Date-Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Last Quarter-Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Last Quarter To Date-Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Last Year-Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Last Year To Date-Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Next Week-Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Next 4Weeks-Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Next Month-Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Next Quarter-Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Next Year-Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Orders Due Next Month-Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Orders Due This Month-Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Orders Created This Month-Order Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Orders</td> <td width='350'>Orders Created Last Month-Order Line Details by Size</td></tr>
+
+
+<tr> <td align='left' width='250'>Order Lines</td> <td width='350'>Open Orders                                                                                                                                                                                                                                                   </td></tr>
+<tr> <td align='left' width='250'>Order Lines</td> <td width='350'>Hold Orders                                                                                                                                                                                                                                                   </td></tr>
+<tr> <td align='left' width='250'>Order Lines</td> <td width='350'>Open/Hold Orders                                                                                                                                                                                                                                              </td></tr>
+<tr> <td align='left' width='250'>Order Lines</td> <td width='350'>Completed Orders                                                                                                                                                                                                                                              </td></tr>
+<tr> <td align='left' width='250'>Order Lines</td> <td width='350'>All Orders                                                                                                                                                                                                                                                    </td></tr>
+<tr> <td align='left' width='250'>Order Lines</td> <td width='350'>Cancelled Orders                                                                                                                                                                                                                                              </td></tr>
+<tr> <td align='left' width='250'>Order Lines</td> <td width='350'>Bulk Orders                                                                                                                                                                                                                                                   </td></tr>
+<tr> <td align='left' width='250'>Order Lines</td> <td width='350'>EDI Orders                                                                                                                                                                                                                                                    </td></tr>
+<tr> <td align='left' width='250'>Order Lines</td> <td width='350'>Weblink Orders                                                                                                                                                                                                                                                </td></tr>
+<tr> <td align='left' width='250'>Order Lines</td> <td width='350'>Easyshop Orders                                                                                                                                                                                                                                               </td></tr>
+<tr> <td align='left' width='250'>Order Lines</td> <td width='350'>Remotelink Orders                                                                                                                                                                                                                                             </td></tr>
+<tr> <td align='left' width='250'>Orders With Pick Tickets</td> <td width='350'>Open/Hold Orders With PickTickets                                                                                                                                                                                                                             </td></tr>
+<tr> <td align='left' width='250'>Orders With Pick Tickets</td> <td width='350'>Open/Hold Orders W/O PickTickets                                                                                                                                                                                                                              </td></tr>
+<tr> <td align='left' width='250'>Orders With Pick Tickets</td> <td width='350'>Open Orders With PickTickets                                                                                                                                                                                                                                  </td></tr>
+<tr> <td align='left' width='250'>Orders With Pick Tickets</td> <td width='350'>Open Orders W/O PickTickets                                                                                                                                                                                                                                   </td></tr>
+<tr> <td align='left' width='250'>Orders With Pick Tickets</td> <td width='350'>Hold Orders With PickTickets                                                                                                                                                                                                                                  </td></tr>
+<tr> <td align='left' width='250'>Orders With Pick Tickets</td> <td width='350'>Hold Orders W/O PickTickets                                                                                                                                                                                                                                   </td></tr>
+<tr> <td align='left' width='250'>Orders With Pick Tickets</td> <td width='350'>All Orders With PickTickets                                                                                                                                                                                                                                   </td></tr>
+<tr> <td align='left' width='250'>Orders With Pick Tickets</td> <td width='350'>All Orders W/O PickTickets                                                                                                                                                                                                                                    </td></tr>
+
 </table>
+
 
 </br>
 
 **Payment Reconciliation** 
 
-<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=0 width=600
- style='width:6.25in;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184'>
- <thead>
-  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
-   <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>Source<o:p></o:p></span></b></p>
-   </td>
-   <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>View
-   Name<o:p></o:p></span></b></p>
-   </td>
+<table align='left' width='600'>
+  <tr >
+    <th>Source</th>
+    <th>View Name</th>
   </tr>
- </thead>
- <tr style='mso-yfti-irow:1'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Payment
-  Reconciliation Batches<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Active
-  Batches <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:2'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Payment
-  Reconciliation Batches<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Closed
-  Batches <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:3'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Payment
-  Reconciliation Batches<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Voided
-  Batches <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:4'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Payment
-  Reconciliation Batches<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Batches <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:5'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Payment
-  Reconciliation Batches<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Batches
-  having open balance <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:6;mso-yfti-lastrow:yes'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Payment
-  Reconciliation Batches<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Batches
-  having open chargebacks <o:p></o:p></span></p>
-  </td>
- </tr>
+  
+ <tr> <td align='left' width='250'>Payment Reconciliation Batches</td> <td width='350'>Active Batches                                                                                                                                                                                                                                                </td></tr>
+<tr> <td align='left' width='250'>Payment Reconciliation Batches</td> <td width='350'>Closed Batches                                                                                                                                                                                                                                                </td></tr>
+<tr> <td align='left' width='250'>Payment Reconciliation Batches</td> <td width='350'>Voided Batches                                                                                                                                                                                                                                                </td></tr>
+<tr> <td align='left' width='250'>Payment Reconciliation Batches</td> <td width='350'>All Batches                                                                                                                                                                                                                                                   </td></tr>
+<tr> <td align='left' width='250'>Payment Reconciliation Batches</td> <td width='350'>Batches having open balance                                                                                                                                                                                                                                   </td></tr>
+<tr> <td align='left' width='250'>Payment Reconciliation Batches</td> <td width='350'>Batches having open chargebacks                                                                                                                                                                                                                               </td></tr>
+
 </table>
+
 
 </br>
 
 **Pick Tickets** 
 
-<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=0 width=600
- style='width:6.25in;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184'>
- <thead>
-  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
-   <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>Source<o:p></o:p></span></b></p>
-   </td>
-   <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>View
-   Name<o:p></o:p></span></b></p>
-   </td>
+<table align='left' width='600'>
+  <tr >
+    <th>Source</th>
+    <th>View Name</th>
   </tr>
- </thead>
- <tr style='mso-yfti-irow:1'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Pick
-  Tickets<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Pick Tickets <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:2'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Pick
-  Tickets<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span class=GramE><span style='mso-fareast-font-family:
-  "Times New Roman"'>Open(</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'>Status=O) <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:3'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Pick
-  Tickets<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span class=GramE><span style='mso-fareast-font-family:
-  "Times New Roman"'>Packed(</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'>Status=P) <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:4'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Pick
-  Tickets<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span class=GramE><span style='mso-fareast-font-family:
-  "Times New Roman"'>Shipped(</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'>Status=S) <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:5'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Pick
-  Tickets<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Never
-  Printed <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:6'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Pick
-  Tickets<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Printed
-  but not invoiced <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:7;mso-yfti-lastrow:yes'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Pick
-  Tickets<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Shipping
-  Data Received <o:p></o:p></span></p>
-  </td>
- </tr>
+  
+ <tr> <td align='left' width='250'>Pick Tickets</td> <td width='350'>All Pick Tickets                                                                                                                                                                                                                                              </td></tr>
+<tr> <td align='left' width='250'>Pick Tickets</td> <td width='350'>Open(Status=O)                                                                                                                                                                                                                                                </td></tr>
+<tr> <td align='left' width='250'>Pick Tickets</td> <td width='350'>Packed(Status=P)                                                                                                                                                                                                                                              </td></tr>
+<tr> <td align='left' width='250'>Pick Tickets</td> <td width='350'>Shipped(Status=S)                                                                                                                                                                                                                                             </td></tr>
+<tr> <td align='left' width='250'>Pick Tickets</td> <td width='350'>Never Printed                                                                                                                                                                                                                                                 </td></tr>
+<tr> <td align='left' width='250'>Pick Tickets</td> <td width='350'>Printed but not invoiced                                                                                                                                                                                                                                      </td></tr>
+<tr> <td align='left' width='250'>Pick Tickets</td> <td width='350'>Shipping Data Received                                                                                                                                                                                                                                        </td></tr>
+
 </table>
+
 
 </br>
 
 **Production Tracking** 
 
-<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=0 width=600
- style='width:6.25in;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184'>
- <thead>
-  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
-   <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>Source<o:p></o:p></span></b></p>
-   </td>
-   <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>View
-   Name<o:p></o:p></span></b></p>
-   </td>
+<table align='left' width='600'>
+  <tr >
+    <th>Source</th>
+    <th>View Name</th>
   </tr>
- </thead>
- <tr style='mso-yfti-irow:1'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Production
-  Jobs<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Productions <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:2'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Production
-  Jobs<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Open
-  Productions <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:3'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Production
-  Jobs<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Hold
-  Productions <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:4'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Production
-  Jobs<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Completed
-  Productions <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:5'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Production
-  Jobs<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Canceled
-  Productions <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:6'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Production
-  Templates<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Templates <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:7'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Production
-  Templates<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Active
-  Templates <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:8;mso-yfti-lastrow:yes'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Production
-  Templates<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span class=SpellE><span style='mso-fareast-font-family:
-  "Times New Roman"'>InActive</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'> Templates <o:p></o:p></span></p>
-  </td>
- </tr>
+  
+ <tr> <td align='left' width='250'>Production Jobs</td> <td width='350'>All Productions                                                                                                                                                                                                                                               </td></tr>
+<tr> <td align='left' width='250'>Production Jobs</td> <td width='350'>Open Productions                                                                                                                                                                                                                                              </td></tr>
+<tr> <td align='left' width='250'>Production Jobs</td> <td width='350'>Hold Productions                                                                                                                                                                                                                                              </td></tr>
+<tr> <td align='left' width='250'>Production Jobs</td> <td width='350'>Completed Productions                                                                                                                                                                                                                                         </td></tr>
+<tr> <td align='left' width='250'>Production Jobs</td> <td width='350'>Canceled Productions                                                                                                                                                                                                                                          </td></tr>
+<tr> <td align='left' width='250'>Production Templates</td> <td width='350'>All Templates                                                                                                                                                                                                                                                 </td></tr>
+<tr> <td align='left' width='250'>Production Templates</td> <td width='350'>Active Templates                                                                                                                                                                                                                                              </td></tr>
+<tr> <td align='left' width='250'>Production Templates</td> <td width='350'>InActive Templates                                                                                                                                                                                                                                            </td></tr>
+
 </table>
+
 
 </br>
 
 **Purchase Orders** 
 
-<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=0 width=600
- style='width:6.25in;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184'>
- <thead>
-  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
-   <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>Source<o:p></o:p></span></b></p>
-   </td>
-   <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>View
-   Name<o:p></o:p></span></b></p>
-   </td>
+<table align='left' width='600'>
+  <tr >
+    <th>Source</th>
+    <th>View Name</th>
   </tr>
- </thead>
- <tr style='mso-yfti-irow:1'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Purchase
-  Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Open
-  PO's <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:2'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Purchase
-  Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Closed
-  PO's <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:3'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Purchase
-  Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Cancelled
-  PO's <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:4'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Purchase
-  Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  PO's <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:5'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Purchase
-  Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Style
-  PO's <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:6'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Purchase
-  Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Material
-  PO's <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:7'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Purchase
-  Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Open
-  PO's-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:8'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Purchase
-  Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Closed
-  PO's-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:9'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Purchase
-  Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Cancelled
-  PO's-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:10'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Purchase
-  Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  PO's-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:11'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Purchase
-  Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Style
-  PO's-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:12;mso-yfti-lastrow:yes'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Purchase
-  Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Material
-  PO's-Line Details <o:p></o:p></span></p>
-  </td>
- </tr>
+  
+ <tr> <td align='left' width='250'>Purchase Orders</td> <td width='350'>Open PO's                                                                                                                                                                                                                                                     </td></tr>
+<tr> <td align='left' width='250'>Purchase Orders</td> <td width='350'>Closed PO's                                                                                                                                                                                                                                                   </td></tr>
+<tr> <td align='left' width='250'>Purchase Orders</td> <td width='350'>Cancelled PO's                                                                                                                                                                                                                                                </td></tr>
+<tr> <td align='left' width='250'>Purchase Orders</td> <td width='350'>All PO's                                                                                                                                                                                                                                                      </td></tr>
+<tr> <td align='left' width='250'>Purchase Orders</td> <td width='350'>Style PO's                                                                                                                                                                                                                                                    </td></tr>
+<tr> <td align='left' width='250'>Purchase Orders</td> <td width='350'>Material PO's                                                                                                                                                                                                                                                 </td></tr>
+<tr> <td align='left' width='250'>Purchase Orders</td> <td width='350'>Open PO's-Line Details                                                                                                                                                                                                                                        </td></tr>
+<tr> <td align='left' width='250'>Purchase Orders</td> <td width='350'>Closed PO's-Line Details                                                                                                                                                                                                                                      </td></tr>
+<tr> <td align='left' width='250'>Purchase Orders</td> <td width='350'>Cancelled PO's-Line Details                                                                                                                                                                                                                                   </td></tr>
+<tr> <td align='left' width='250'>Purchase Orders</td> <td width='350'>All PO's-Line Details                                                                                                                                                                                                                                         </td></tr>
+<tr> <td align='left' width='250'>Purchase Orders</td> <td width='350'>Style PO's-Line Details                                                                                                                                                                                                                                       </td></tr>
+<tr> <td align='left' width='250'>Purchase Orders</td> <td width='350'>Material PO's-Line Details                                                                                                                                                                                                                                    </td></tr>
+<tr> <td align='left' width='250'>Purchase Orders</td> <td width='350'>Open PO Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Purchase Orders</td> <td width='350'>Completed PO Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Purchase Orders</td> <td width='350'>Canceled PO Line Details by Size</td></tr>
+<tr> <td align='left' width='250'>Purchase Orders</td> <td width='350'>All PO Line Details by Size</td></tr>
+
 </table>
+
 
 </br>
 
 **Returns** 
 
-<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=0 width=600
- style='width:6.25in;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184'>
- <thead>
-  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
-   <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>Source<o:p></o:p></span></b></p>
-   </td>
-   <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>View
-   Name<o:p></o:p></span></b></p>
-   </td>
+<table align='left' width='600'>
+  <tr >
+    <th>Source</th>
+    <th>View Name</th>
   </tr>
- </thead>
- <tr style='mso-yfti-irow:1'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>RMA
-  and Credit Memos<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Open
-  RMA <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:2'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>RMA
-  and Credit Memos<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Credit
-  Memo Issued <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:3'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>RMA
-  and Credit Memos<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Void
-  <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:4;mso-yfti-lastrow:yes'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>RMA
-  and Credit Memos<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  <o:p></o:p></span></p>
-  </td>
- </tr>
+  
+ <tr> <td align='left' width='250'>RMA and Credit Memos</td> <td width='350'>Open RMA                                                                                                                                                                                                                                                      </td></tr>
+<tr> <td align='left' width='250'>RMA and Credit Memos</td> <td width='350'>Credit Memo Issued                                                                                                                                                                                                                                            </td></tr>
+<tr> <td align='left' width='250'>RMA and Credit Memos</td> <td width='350'>Void                                                                                                                                                                                                                                                          </td></tr>
+<tr> <td align='left' width='250'>RMA and Credit Memos</td> <td width='350'>All                                                                                                                                                                                                                                                           </td></tr>
+
 </table>
+
 
 </br>
 
 **Sales Reps**
 
-<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=0 width=600
- style='width:6.25in;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184'>
- <thead>
-  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
-   <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>Source<o:p></o:p></span></b></p>
-   </td>
-   <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>View
-   Name<o:p></o:p></span></b></p>
-   </td>
+<table align='left' width='600'>
+  <tr >
+    <th>Source</th>
+    <th>View Name</th>
   </tr>
- </thead>
- <tr style='mso-yfti-irow:1'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span class=SpellE><span style='mso-fareast-font-family:
-  "Times New Roman"'>SalesReps</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'><o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Active
-  <span class=SpellE>SalesRep</span> <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:2'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span class=SpellE><span style='mso-fareast-font-family:
-  "Times New Roman"'>SalesReps</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'><o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Inactive
-  <span class=SpellE>SalesRep</span> <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:3'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span class=SpellE><span style='mso-fareast-font-family:
-  "Times New Roman"'>SalesReps</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'><o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Status <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:4;mso-yfti-lastrow:yes'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span class=SpellE><span style='mso-fareast-font-family:
-  "Times New Roman"'>SalesReps</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'> <span class=SpellE>Commision</span><o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Sales
-  Commissions <o:p></o:p></span></p>
-  </td>
- </tr>
+  
+ <tr> <td align='left' width='250'>SalesReps</td> <td width='350'>Active SalesRep                                                                                                                                                                                                                                               </td></tr>
+<tr> <td align='left' width='250'>SalesReps</td> <td width='350'>Inactive SalesRep                                                                                                                                                                                                                                             </td></tr>
+<tr> <td align='left' width='250'>SalesReps</td> <td width='350'>All Status                                                                                                                                                                                                                                                    </td></tr>
+<tr> <td align='left' width='250'>SalesReps Commision</td> <td width='350'>Sales Commissions                                                                                                                                                                                                                                             </td></tr>
+
 </table>
+
 
 </br>
 
 **Shipments** 
 
-<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=0 width=600
- style='width:6.25in;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184'>
- <thead>
-  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
-   <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>Source<o:p></o:p></span></b></p>
-   </td>
-   <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>View
-   Name<o:p></o:p></span></b></p>
-   </td>
+<table align='left' width='600'>
+  <tr >
+    <th>Source</th>
+    <th>View Name</th>
   </tr>
- </thead>
- <tr style='mso-yfti-irow:1'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Shipments<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Open
-  Shipments <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:2'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Shipments<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Finalized
-  Shipments <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:3'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Shipments<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Void
-  Shipments <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:4'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Shipments<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Pending
-  EDI753 Shipments <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:5'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Shipments<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Pending
-  EDI754 Shipments <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:6'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Shipments<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Shipments
-  Created Via EDI754 <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:7'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Shipments<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Pending
-  856Shipments <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:8'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Shipments<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Shipments <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:9'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Shipping
-  Templates<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Active
-  Shipping Templates <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:10'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Shipping
-  Templates<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>In-Active
-  Shipping Templates <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:11;mso-yfti-lastrow:yes'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Shipping
-  Templates<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Shipping Templates <o:p></o:p></span></p>
-  </td>
- </tr>
+  
+ <tr> <td align='left' width='250'>Shipments</td> <td width='350'>Open Shipments                                                                                                                                                                                                                                                </td></tr>
+<tr> <td align='left' width='250'>Shipments</td> <td width='350'>Finalized Shipments                                                                                                                                                                                                                                           </td></tr>
+<tr> <td align='left' width='250'>Shipments</td> <td width='350'>Void Shipments                                                                                                                                                                                                                                                </td></tr>
+<tr> <td align='left' width='250'>Shipments</td> <td width='350'>Pending EDI753 Shipments                                                                                                                                                                                                                                      </td></tr>
+<tr> <td align='left' width='250'>Shipments</td> <td width='350'>Pending EDI754 Shipments                                                                                                                                                                                                                                      </td></tr>
+<tr> <td align='left' width='250'>Shipments</td> <td width='350'>Shipments Created Via EDI754                                                                                                                                                                                                                                  </td></tr>
+<tr> <td align='left' width='250'>Shipments</td> <td width='350'>Pending 856Shipments                                                                                                                                                                                                                                          </td></tr>
+<tr> <td align='left' width='250'>Shipments</td> <td width='350'>All Shipments                                                                                                                                                                                                                                                 </td></tr>
+<tr> <td align='left' width='250'>Shipping Templates</td> <td width='350'>Active Shipping Templates                                                                                                                                                                                                                                     </td></tr>
+<tr> <td align='left' width='250'>Shipping Templates</td> <td width='350'>In-Active Shipping Templates                                                                                                                                                                                                                                  </td></tr>
+<tr> <td align='left' width='250'>Shipping Templates</td> <td width='350'>All Shipping Templates                                                                                                                                                                                                                                        </td></tr>
+
 </table>
+
 
 </br>
 
 **Styles** 
 
-<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=0 width=600
- style='width:6.25in;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184'>
- <thead>
-  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
-   <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>Source<o:p></o:p></span></b></p>
-   </td>
-   <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>View
-   Name<o:p></o:p></span></b></p>
-   </td>
+<table align='left' width='600'>
+  <tr >
+    <th>Source</th>
+    <th>View Name</th>
   </tr>
- </thead>
- <tr style='mso-yfti-irow:1'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Styles<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Active
-  Styles <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:2'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Styles<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Inactive
-  Styles <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:3'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Styles<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Styles <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:4'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Styles<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Active
-  Inventory Styles <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:5'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Styles<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Inactive
-  Inventory Styles <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:6'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Styles<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Active
-  Non-Inventory Styles <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:7'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Styles<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Inactive
-  Non-Inventory Styles <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:8'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Styles<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Active
-  Service Styles <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:9'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Styles<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Inactive
-  Service Styles <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:10'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Styles<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Styles
-  with Replenishment Codes <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:11'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Styles
-  UPC<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Styles <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:12'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Styles
-  UPC<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Without
-  UPC Numbers <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:13'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Styles
-  UPC<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>With
-  UPC Numbers <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:14'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Styles
-  UPC<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>With
-  Released UPC Numbers <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:15'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Styles
-  UPC<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>With
-  Expired UPC Numbers <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:16;mso-yfti-lastrow:yes'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Styles
-  UPC<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>UPC
-  Browse <o:p></o:p></span></p>
-  </td>
- </tr>
+  
+ <tr> <td align='left' width='250'>Styles</td> <td width='350'>Active Styles                                                                                                                                                                                                                                                 </td></tr>
+<tr> <td align='left' width='250'>Styles</td> <td width='350'>Inactive Styles                                                                                                                                                                                                                                               </td></tr>
+<tr> <td align='left' width='250'>Styles</td> <td width='350'>All Styles                                                                                                                                                                                                                                                    </td></tr>
+<tr> <td align='left' width='250'>Styles</td> <td width='350'>Active Inventory Styles                                                                                                                                                                                                                                       </td></tr>
+<tr> <td align='left' width='250'>Styles</td> <td width='350'>Inactive Inventory Styles                                                                                                                                                                                                                                     </td></tr>
+<tr> <td align='left' width='250'>Styles</td> <td width='350'>Active Non-Inventory Styles                                                                                                                                                                                                                                   </td></tr>
+<tr> <td align='left' width='250'>Styles</td> <td width='350'>Inactive Non-Inventory Styles                                                                                                                                                                                                                                 </td></tr>
+<tr> <td align='left' width='250'>Styles</td> <td width='350'>Active Service Styles                                                                                                                                                                                                                                         </td></tr>
+<tr> <td align='left' width='250'>Styles</td> <td width='350'>Inactive Service Styles                                                                                                                                                                                                                                       </td></tr>
+<tr> <td align='left' width='250'>Styles</td> <td width='350'>Styles with Replenishment Codes                                                                                                                                                                                                                               </td></tr>
+<tr> <td align='left' width='250'>Styles UPC</td> <td width='350'>All Styles                                                                                                                                                                                                                                                    </td></tr>
+<tr> <td align='left' width='250'>Styles UPC</td> <td width='350'>Without UPC Numbers                                                                                                                                                                                                                                           </td></tr>
+<tr> <td align='left' width='250'>Styles UPC</td> <td width='350'>With UPC Numbers                                                                                                                                                                                                                                              </td></tr>
+<tr> <td align='left' width='250'>Styles UPC</td> <td width='350'>With Released UPC Numbers                                                                                                                                                                                                                                     </td></tr>
+<tr> <td align='left' width='250'>Styles UPC</td> <td width='350'>With Expired UPC Numbers                                                                                                                                                                                                                                      </td></tr>
+<tr> <td align='left' width='250'>Styles UPC</td> <td width='350'>UPC Browse                                                                                                                                                                                                                                                    </td></tr>
+
 </table>
-</br>
+
 
 **Vendors** 
 
-<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=0 width=600
- style='width:6.25in;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184'>
- <thead>
-  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
-   <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>Source<o:p></o:p></span></b></p>
-   </td>
-   <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>View
-   Name<o:p></o:p></span></b></p>
-   </td>
+<table align='left' width='600'>
+  <tr >
+    <th>Source</th>
+    <th>View Name</th>
   </tr>
- </thead>
- <tr style='mso-yfti-irow:1'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Vendors<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Active
-  <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:2'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Vendors<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Inactive
-  <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:3;mso-yfti-lastrow:yes'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Vendors<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  <o:p></o:p></span></p>
-  </td>
- </tr>
+  
+ <tr> <td align='left' width='250'>Vendors</td> <td width='350'>Active                                                                                                                                                                                                                                                        </td></tr>
+<tr> <td align='left' width='250'>Vendors</td> <td width='350'>Inactive                                                                                                                                                                                                                                                      </td></tr>
+<tr> <td align='left' width='250'>Vendors</td> <td width='350'>All                                                                                                                                                                                                                                                           </td></tr>
+
 </table>
+
 
 </br>
 
 **Warehouses** 
 
-<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=0 width=600
- style='width:6.25in;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184'>
- <thead>
-  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
-   <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>Source<o:p></o:p></span></b></p>
-   </td>
-   <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>View
-   Name<o:p></o:p></span></b></p>
-   </td>
+<table align='left' width='600'>
+  <tr >
+    <th>Source</th>
+    <th>View Name</th>
   </tr>
- </thead>
- <tr style='mso-yfti-irow:1'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Inventory
-  Transfer Jobs<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Open
-  Transfers <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:2'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Inventory
-  Transfer Jobs<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Closed
-  Transfers <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:3'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Inventory
-  Transfer Jobs<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Transfers <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:4'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Inventory
-  Transfer Jobs<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Void
-  Transfers <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:5'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Warehouse
-  Inventory Details<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Style/Inventory
-  Items <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:6'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Warehouse
-  Inventory Details<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Style/Inventory
-  Items With OTS(<span class=SpellE>i</span>) <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:7'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Warehouse
-  Inventory Details<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Style/Non-Inventory
-  Items <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:8'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Warehouse
-  Inventory Details<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Style/Service
-  Items <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:9'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Warehouse
-  Inventory Details by Size<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Style/Inventory
-  Items <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:10'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Warehouse
-  Inventory Details by Size<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Style/Inventory
-  Items With OTS(<span class=SpellE>i</span>) <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:11'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Warehouse
-  Inventory Details by Size<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Style/Non-Inventory
-  Items <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:12'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Warehouse
-  Inventory Details by Size<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Style/Service
-  Items <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:13'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Warehouses<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  <span class=SpellE>WareHouses</span> <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:14'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Warehouses<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Active
-  <span class=SpellE>WareHouses</span> <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:15;mso-yfti-lastrow:yes'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Warehouses<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span class=SpellE><span style='mso-fareast-font-family:
-  "Times New Roman"'>InActive</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'> <span class=SpellE>WareHouses</span> <o:p></o:p></span></p>
-  </td>
- </tr>
+  
+<tr> <td align='left' width='250'>Warehouses</td> <td width='350'>All WareHouses                                                                                                                                                                                                                                                </td></tr>
+<tr> <td align='left' width='250'>Warehouses</td> <td width='350'>Active WareHouses                                                                                                                                                                                                                                             </td></tr>
+<tr> <td align='left' width='250'>Warehouses</td> <td width='350'>InActive WareHouses                                                                                                                                                                                                                                           </td></tr>
+<tr> <td align='left' width='250'>Warehouse Inventory Details</td> <td width='350'>Style/Inventory Items                                                                                                                                                                                                                                         </td></tr>
+<tr> <td align='left' width='250'>Warehouse Inventory Details</td> <td width='350'>Style/Inventory Items With OTS(i)                                                                                                                                                                                                                             </td></tr>
+<tr> <td align='left' width='250'>Warehouse Inventory Details</td> <td width='350'>Style/Non-Inventory Items                                                                                                                                                                                                                                     </td></tr>
+<tr> <td align='left' width='250'>Warehouse Inventory Details</td> <td width='350'>Style/Service Items                                                                                                                                                                                                                                           </td></tr>
+<tr> <td align='left' width='250'>Warehouse Inventory Details by Size</td> <td width='350'>Style/Inventory Items                                                                                                                                                                                                                                         </td></tr>
+<tr> <td align='left' width='250'>Warehouse Inventory Details by Size</td> <td width='350'>Style/Inventory Items With OTS(i)                                                                                                                                                                                                                             </td></tr>
+<tr> <td align='left' width='250'>Warehouse Inventory Details by Size</td> <td width='350'>Style/Non-Inventory Items                                                                                                                                                                                                                                     </td></tr>
+<tr> <td align='left' width='250'>Warehouse Inventory Details by Size</td> <td width='350'>Style/Service Items                                                                                                                                                                                                                                           </td></tr>
+<tr> <td align='left' width='250'>Inventory Transfer Jobs</td> <td width='350'>Open Transfers                                                                                                                                                                                                                                                </td></tr>
+<tr> <td align='left' width='250'>Inventory Transfer Jobs</td> <td width='350'>Closed Transfers                                                                                                                                                                                                                                              </td></tr>
+<tr> <td align='left' width='250'>Inventory Transfer Jobs</td> <td width='350'>All Transfers                                                                                                                                                                                                                                                 </td></tr>
+<tr> <td align='left' width='250'>Inventory Transfer Jobs</td> <td width='350'>Void Transfers                                                                                                                                                                                                                                                </td></tr>
+
 </table>
+
 
 </br>
 
 **Web Orders** 
 
-<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=0 width=600
- style='width:6.25in;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184'>
- <thead>
-  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
-   <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>Source<o:p></o:p></span></b></p>
-   </td>
-   <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-   <p class=MsoNormal><b><span style='mso-fareast-font-family:"Times New Roman"'>View
-   Name<o:p></o:p></span></b></p>
-   </td>
+<table align='left' width='600'>
+  <tr >
+    <th>Source</th>
+    <th>View Name</th>
   </tr>
- </thead>
- <tr style='mso-yfti-irow:1'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Web
-  Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>All
-  Web Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:2'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Web
-  Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span class=SpellE><span style='mso-fareast-font-family:
-  "Times New Roman"'>WebLink</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'> Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:3'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Web
-  Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span class=SpellE><span style='mso-fareast-font-family:
-  "Times New Roman"'>RemoteLink</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'> Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:4'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Web
-  Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span class=SpellE><span style='mso-fareast-font-family:
-  "Times New Roman"'>EasyShop</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'> Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:5'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Web
-  Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Rejected
-  Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:6'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Web
-  Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Pending
-  Import Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:7'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Web
-  Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Weblink
-  Pending Import Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:8'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Web
-  Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span class=SpellE><span style='mso-fareast-font-family:
-  "Times New Roman"'>Remotelink</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'> Pending Import Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:9'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Web
-  Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span class=SpellE><span style='mso-fareast-font-family:
-  "Times New Roman"'>EasyShop</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'> Pending Import Orders <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:10;mso-yfti-lastrow:yes'>
-  <td width=250 style='width:187.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Web
-  Orders<o:p></o:p></span></p>
-  </td>
-  <td width=350 style='width:262.5pt;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Pending
-  Weblink Approvals <o:p></o:p></span></p>
-  </td>
- </tr>
+  
+<tr> <td align='left' width='250'>Web Orders</td> <td width='350'>All Web Orders                                                                                                                                                                                                                                                </td></tr>
+<tr> <td align='left' width='250'>Web Orders</td> <td width='350'>WebLink Orders                                                                                                                                                                                                                                                </td></tr>
+<tr> <td align='left' width='250'>Web Orders</td> <td width='350'>RemoteLink Orders                                                                                                                                                                                                                                             </td></tr>
+<tr> <td align='left' width='250'>Web Orders</td> <td width='350'>EasyShop Orders                                                                                                                                                                                                                                               </td></tr>
+<tr> <td align='left' width='250'>Web Orders</td> <td width='350'>Rejected Orders                                                                                                                                                                                                                                               </td></tr>
+<tr> <td align='left' width='250'>Web Orders</td> <td width='350'>Pending Import Orders                                                                                                                                                                                                                                         </td></tr>
+<tr> <td align='left' width='250'>Web Orders</td> <td width='350'>Weblink Pending Import Orders                                                                                                                                                                                                                                 </td></tr>
+<tr> <td align='left' width='250'>Web Orders</td> <td width='350'>Remotelink Pending Import Orders                                                                                                                                                                                                                              </td></tr>
+<tr> <td align='left' width='250'>Web Orders</td> <td width='350'>EasyShop Pending Import Orders                                                                                                                                                                                                                                </td></tr>
+<tr> <td align='left' width='250'>Web Orders</td> <td width='350'>Pending Weblink Approvals                                                                                                                                                                                                                                     </td></tr>
+
 </table>
 
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
 
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
-
-<span style='font-size:12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
-"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:EN-US;
-mso-bidi-language:AR-SA'><br clear=all style='mso-special-character:line-break;
-page-break-before:always'>
-</span>
-
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
-
-
-
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
-
-</div>
-
-</body>
-
-</html>
