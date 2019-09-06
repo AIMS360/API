@@ -146,7 +146,7 @@ The below are the available AIMS360 System Views
 
 </br>
 
-##### EDI
+ EDI
 
 <table align='left' width='600'>
   <tr >
