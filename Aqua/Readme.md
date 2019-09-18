@@ -27,6 +27,18 @@ must complete the following steps:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 POST /reports/v1.0/exportdata
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Request** 
+
+{<br>
+    "exportType": "View",<br>
+    "exportDataSettings": {<br>
+         "Source": "Orders",<br>
+          "viewName": "All orders"<br>
+           },<br>
+    "exportCriteriaVersion": "v1.0",<br>
+    "outputFormat": "JSON",<br>
+    "publishLinkAccessScope": "Public"<br>
+}<br>
 
 Request properties
 
