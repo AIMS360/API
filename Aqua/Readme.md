@@ -25,7 +25,7 @@ must complete the following steps:
 2.  Create a request for data by posting to AQUA API.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-POST /reports/v1.0/exportdata
+POST /reports/v1.0/reports/exportdata
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 **Request** 
 
