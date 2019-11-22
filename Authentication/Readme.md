@@ -23,7 +23,7 @@ Navigate to API tab under User Settings. If the Bearer token/Access token is not
 generated earlier, Generate Access token button will be available. Click on
 Generate Access token button.
 
-![](media/1161981bb91a28440e45cb67b3dda0fa.png)
+![](media/Generate%20Access%20Token.png)
 
 Step 3:
 
@@ -36,7 +36,7 @@ Step 4:
 After Successful validation of the username and password, the Bearer
 token/Access token will be generated and displayed on API tab
 
-![](media/52438300e2a7bd385d96c7791decc685.png)
+![](media/Access%20Token.png)
 
 <br>
 
