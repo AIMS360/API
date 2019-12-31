@@ -146,7 +146,22 @@ The below are the available AIMS360 System Views
 
 </br>
 
+**Cut Ticket Receipts** 
 
+<table align='left' width='600'>
+  <tr >
+    <th>Source</th>
+    <th>View Name</th>
+  </tr>
+ <tr> <td align='left' width='250'>Cut Ticket Receipts</td> <td width='350'>Year To Date Cut Ticket Receipts by Size</td></tr>
+ <tr> <td align='left' width='250'>Cut Ticket Receipts</td> <td width='350'>Last Year To Date Cut Ticket Receipts by Size</td></tr>
+ <tr> <td align='left' width='250'>Cut Ticket Receipts</td> <td width='350'>Cut Ticket Good Receipts by size</td></tr>
+ <tr> <td align='left' width='250'>Cut Ticket Receipts</td> <td width='350'>Cut Ticket Damaged Receipts by size</td></tr>
+ <tr> <td align='left' width='250'>Cut Ticket Receipts</td> <td width='350'>All Cut Ticket Receipts by size</td></tr>
+
+</table>
+
+</br>
  **Electronic Data Interchange (EDI)**
 
 <table align='left' width='600'>
@@ -186,6 +201,22 @@ The below are the available AIMS360 System Views
 
 </table>
 
+</br>
+
+**Garment Dye Receipts**
+
+<table align='left' width='600'>
+  <tr >
+    <th>Source</th>
+    <th>View Name</th>
+  </tr>
+ <tr> <td align='left' width='250'>Garment Dye Receipts</td> <td width='350'>Year To Date Garment Dye Receipts by Size</td></tr>
+ <tr> <td align='left' width='250'>Garment Dye Receipts</td> <td width='350'>Last Year To Date Garment Dye Receipts by Size</td></tr>
+  <tr> <td align='left' width='250'>Garment Dye Receipts</td> <td width='350'>Garment Dye Good Receipts by Size</td></tr>
+  <tr> <td align='left' width='250'>Garment Dye Receipts</td> <td width='350'>Garment Dye Damaged Receipts by Size</td></tr>
+  <tr> <td align='left' width='250'>Garment Dye Receipts</td> <td width='350'>Garment Dye Cancelled Receipts by Size</td></tr>
+  <tr> <td align='left' width='250'>Garment Dye Receipts</td> <td width='350'>All Garment Dye Receipts by Size</td></tr>
+ </table>
 </br>
 
 **Intelligent Allocation** 
@@ -307,6 +338,23 @@ The below are the available AIMS360 System Views
 <tr> <td align='left' width='250'>Materials</td> <td width='350'>Inactive Materials                                                                                                                                                                                                                                            </td></tr>
 <tr> <td align='left' width='250'>Materials</td> <td width='350'>All Materials                                                                                                                                                                                                                                                 </td></tr>
 
+</table>
+
+</br>
+
+**Material Inventory Adjustments** 
+
+<table align='left' width='600'>
+  <tr >
+    <th>Source</th>
+    <th>View Name</th>
+  </tr>
+  <tr> <td align='left' width='250'>Material Inventory Adjustments</td> <td width='350'>Year To Date Material Inventory Adjustments</td></tr>
+  <tr> <td align='left' width='250'>Material Inventory Adjustments</td> <td width='350'>Last Year To Date Material Inventory Adjustments</td></tr>
+  <tr> <td align='left' width='250'>Material Inventory Adjustments</td> <td width='350'>Current Quarter Material Inventory Adjustments</td></tr>
+  <tr> <td align='left' width='250'>Material Inventory Adjustments</td> <td width='350'>Current Month Material Inventory Adjustments</td></tr>
+  <tr> <td align='left' width='250'>Material Inventory Adjustments</td> <td width='350'>Last Month Material Inventory Adjustments</td></tr>
+  <tr> <td align='left' width='250'>Material Inventory Adjustments</td> <td width='350'>All Material Inventory Adjustments</td></tr>
 </table>
 
 </br>
@@ -549,6 +597,22 @@ The below are the available AIMS360 System Views
 
 </table>
 
+</br>
+
+**Purchase Order Receipts** 
+
+<table align='left' width='600'>
+  <tr >
+    <th>Source</th>
+    <th>View Name</th>
+  </tr>
+<tr> <td align='left' width='250'>Purchase Order Receipts</td> <td width='350'>Year To Date Purchase Order Receipts by Size</td></tr>
+<tr> <td align='left' width='250'>Purchase Order Receipts</td> <td width='350'>Last Year To Date Purchase Order Receipts by Size</td></tr>
+ <tr> <td align='left' width='250'>Purchase Order Receipts</td> <td width='350'>Purchase Order Good Receipts by Size</td></tr>
+ <tr> <td align='left' width='250'>Purchase Order Receipts</td> <td width='350'>Purchase Order Damaged Receipts by Size</td></tr>
+ <tr> <td align='left' width='250'>Purchase Order Receipts</td> <td width='350'>Purchase Order Cancelled Receipts by Size </td></tr>
+ <tr> <td align='left' width='250'>Purchase Order Receipts</td> <td width='350'>All Purchase Order Receipts by Size </td></tr>
+</table>
 
 </br>
 
@@ -642,6 +706,24 @@ The below are the available AIMS360 System Views
 
 </table>
 
+</br>
+
+**Style Inventory Adjustments** 
+
+<table align='left' width='600'>
+  <tr >
+    <th>Source</th>
+    <th>View Name</th>
+  </tr>
+<tr> <td align='left' width='250'>Style Inventory Adjustments</td> <td width='350'>Year To Date Style Inventory Adjustments by Size</td></tr>
+<tr> <td align='left' width='250'>Style Inventory Adjustments</td> <td width='350'>Last Year To Date Style Inventory Adjustments by Size</td></tr>
+ <tr> <td align='left' width='250'>Style Inventory Adjustments</td> <td width='350'>Current Quarter Style Inventory Adjustments by Size</td></tr>
+ <tr> <td align='left' width='250'>Style Inventory Adjustments</td> <td width='350'>Current Month Style Inventory Adjustments by Size </td></tr>
+ <tr> <td align='left' width='250'>Style Inventory Adjustments</td> <td width='350'>Last Month Style Inventory Adjustments by Size</td></tr>
+ <tr> <td align='left' width='250'>Style Inventory Adjustments</td> <td width='350'>All Style Inventory Adjustments by Size</td></tr>
+</table>
+
+</br>
 
 **Vendors** 
 
