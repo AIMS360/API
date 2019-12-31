@@ -162,7 +162,8 @@ The below are the available AIMS360 System Views
 </table>
 
 </br>
- **Electronic Data Interchange (EDI)**
+
+**Electronic Data Interchange (EDI)** 
 
 <table align='left' width='600'>
   <tr >
