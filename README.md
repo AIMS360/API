@@ -6,6 +6,4 @@ Application Programing Interface. The API is a RESTful service which accepts
 input request body in JSON or query string format and return response as JSON or
 XML.
 
-<br>
-Please visit following URL for documentation of AIMS360 API.
-https://api.aims360.io/
+Please visit following URL for documentation of AIMS360 API.<br/>https://api.aims360.io/
